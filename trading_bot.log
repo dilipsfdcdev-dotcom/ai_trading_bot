@@ -1,0 +1,1033 @@
+2025-08-12 20:04:57,355 - main - ERROR - Dashboard error: app.run_server has been replaced by app.run
+2025-08-12 20:07:33,655 - main - INFO - [OK] AI Trading Bot initialized successfully
+2025-08-12 20:07:33,656 - main - INFO - [START] Starting AI Trading Bot...
+2025-08-12 20:07:33,657 - main - ERROR - Dashboard error: 'TradingDashboard' object has no attribute 'run_server'
+2025-08-12 20:07:33,657 - main - INFO - [SIGNAL] Dashboard started at http://127.0.0.1:8050
+2025-08-12 20:07:33,658 - main - INFO - [TRAIN] Training ML models...
+2025-08-12 20:07:33,800 - main - INFO - [OK] Model trained for XAUUSD
+2025-08-12 20:07:33,945 - main - INFO - [OK] Model trained for BTCUSD
+2025-08-12 20:07:33,946 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:07:33,973 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 67.91%)
+2025-08-12 20:07:33,973 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 67.9%)
+2025-08-12 20:07:33,998 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 56.08%)
+2025-08-12 20:08:04,009 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:08:04,099 - main - INFO - [SIGNAL] XAUUSD: SELL (Confidence: 65.95%)
+2025-08-12 20:08:04,100 - main - INFO - [TRADE] XAUUSD Signal: SELL (Confidence: 66.0%)
+2025-08-12 20:08:04,181 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 59.80%)
+2025-08-12 20:08:34,189 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:08:34,216 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 69.45%)
+2025-08-12 20:08:34,216 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 69.4%)
+2025-08-12 20:08:34,242 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 57.66%)
+2025-08-12 20:09:04,255 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:09:04,280 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 60.29%)
+2025-08-12 20:09:04,281 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 60.3%)
+2025-08-12 20:09:04,306 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 60.99%)
+2025-08-12 20:09:04,306 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 61.0%)
+2025-08-12 20:09:34,307 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:09:34,352 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 66.55%)
+2025-08-12 20:09:34,353 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 66.6%)
+2025-08-12 20:09:34,395 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 59.52%)
+2025-08-12 20:10:04,397 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:10:04,419 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 65.49%)
+2025-08-12 20:10:04,419 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 65.5%)
+2025-08-12 20:10:04,444 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 59.59%)
+2025-08-12 20:10:34,445 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:10:34,473 - main - INFO - [SIGNAL] XAUUSD: SELL (Confidence: 63.87%)
+2025-08-12 20:10:34,474 - main - INFO - [TRADE] XAUUSD Signal: SELL (Confidence: 63.9%)
+2025-08-12 20:10:34,493 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 58.44%)
+2025-08-12 20:10:34,493 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 58.4%)
+2025-08-12 20:11:04,500 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:11:04,529 - main - INFO - [SIGNAL] XAUUSD: SELL (Confidence: 75.00%)
+2025-08-12 20:11:04,530 - main - INFO - [TRADE] XAUUSD Signal: SELL (Confidence: 75.0%)
+2025-08-12 20:11:04,568 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 58.03%)
+2025-08-12 20:11:34,579 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:11:34,598 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 63.87%)
+2025-08-12 20:11:34,599 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 63.9%)
+2025-08-12 20:11:34,638 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 64.96%)
+2025-08-12 20:11:34,639 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 65.0%)
+2025-08-12 20:12:04,651 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:12:04,688 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 71.86%)
+2025-08-12 20:12:04,688 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 71.9%)
+2025-08-12 20:12:04,719 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 58.03%)
+2025-08-12 20:12:34,730 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:12:34,749 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 64.93%)
+2025-08-12 20:12:34,749 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 64.9%)
+2025-08-12 20:12:34,771 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 62.25%)
+2025-08-12 20:13:04,785 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:13:04,816 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 74.86%)
+2025-08-12 20:13:04,816 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 74.9%)
+2025-08-12 20:13:04,853 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 67.35%)
+2025-08-12 20:13:04,853 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 67.3%)
+2025-08-12 20:13:34,854 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:13:34,885 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 61.62%)
+2025-08-12 20:13:34,886 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 61.6%)
+2025-08-12 20:13:34,909 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 58.78%)
+2025-08-12 20:14:04,919 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:14:04,968 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 73.19%)
+2025-08-12 20:14:04,968 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 73.2%)
+2025-08-12 20:14:04,987 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 59.93%)
+2025-08-12 20:14:04,988 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 59.9%)
+2025-08-12 20:14:34,997 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:14:35,024 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 64.40%)
+2025-08-12 20:14:35,046 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 60.14%)
+2025-08-12 20:14:35,047 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 60.1%)
+2025-08-12 20:15:05,063 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:15:05,087 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 65.18%)
+2025-08-12 20:15:05,088 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 65.2%)
+2025-08-12 20:15:05,114 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 76.52%)
+2025-08-12 20:15:05,115 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 76.5%)
+2025-08-12 20:15:35,123 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:15:35,146 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 82.00%)
+2025-08-12 20:15:35,148 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 82.0%)
+2025-08-12 20:15:35,171 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 61.97%)
+2025-08-12 20:15:35,172 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 62.0%)
+2025-08-12 20:16:05,186 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:16:05,217 - main - INFO - [SIGNAL] XAUUSD: SELL (Confidence: 62.49%)
+2025-08-12 20:16:05,218 - main - INFO - [TRADE] XAUUSD Signal: SELL (Confidence: 62.5%)
+2025-08-12 20:16:05,248 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 58.58%)
+2025-08-12 20:16:05,249 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 58.6%)
+2025-08-12 20:16:35,263 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:16:35,294 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 68.86%)
+2025-08-12 20:16:35,294 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 68.9%)
+2025-08-12 20:16:35,316 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 71.47%)
+2025-08-12 20:16:35,317 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 71.5%)
+2025-08-12 20:17:05,321 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:17:05,359 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 69.43%)
+2025-08-12 20:17:05,360 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 69.4%)
+2025-08-12 20:17:05,381 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 69.09%)
+2025-08-12 20:17:05,381 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 69.1%)
+2025-08-12 20:17:35,386 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:17:35,413 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 67.43%)
+2025-08-12 20:17:35,413 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 67.4%)
+2025-08-12 20:17:35,433 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 59.57%)
+2025-08-12 20:17:35,433 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 59.6%)
+2025-08-12 20:18:05,436 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:18:05,467 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 64.84%)
+2025-08-12 20:18:05,467 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 64.8%)
+2025-08-12 20:18:05,486 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 58.96%)
+2025-08-12 20:18:35,489 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:18:35,527 - main - INFO - [SIGNAL] XAUUSD: SELL (Confidence: 66.64%)
+2025-08-12 20:18:35,527 - main - INFO - [TRADE] XAUUSD Signal: SELL (Confidence: 66.6%)
+2025-08-12 20:18:35,546 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 69.94%)
+2025-08-12 20:18:35,546 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 69.9%)
+2025-08-12 20:19:05,553 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:19:05,585 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 70.57%)
+2025-08-12 20:19:05,585 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 70.6%)
+2025-08-12 20:19:05,609 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 59.68%)
+2025-08-12 20:19:05,610 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 59.7%)
+2025-08-12 20:19:35,620 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:19:35,637 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 65.33%)
+2025-08-12 20:19:35,637 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 65.3%)
+2025-08-12 20:19:35,654 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 59.67%)
+2025-08-12 20:19:35,655 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 59.7%)
+2025-08-12 20:20:05,669 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:20:05,690 - main - INFO - [SIGNAL] XAUUSD: SELL (Confidence: 69.79%)
+2025-08-12 20:20:05,690 - main - INFO - [TRADE] XAUUSD Signal: SELL (Confidence: 69.8%)
+2025-08-12 20:20:05,703 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 60.05%)
+2025-08-12 20:20:05,704 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 60.1%)
+2025-08-12 20:20:35,711 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:20:35,725 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 65.87%)
+2025-08-12 20:20:35,726 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 65.9%)
+2025-08-12 20:20:35,742 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 61.46%)
+2025-08-12 20:20:35,743 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 61.5%)
+2025-08-12 20:21:05,745 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:21:05,766 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 71.62%)
+2025-08-12 20:21:05,768 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 71.6%)
+2025-08-12 20:21:05,783 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 58.86%)
+2025-08-12 20:21:05,784 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 58.9%)
+2025-08-12 20:21:35,799 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:21:35,827 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 76.39%)
+2025-08-12 20:21:35,828 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 76.4%)
+2025-08-12 20:21:35,841 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 58.95%)
+2025-08-12 20:21:35,841 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 58.9%)
+2025-08-12 20:22:05,857 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:22:05,872 - main - INFO - [SIGNAL] XAUUSD: SELL (Confidence: 64.40%)
+2025-08-12 20:22:05,872 - main - INFO - [TRADE] XAUUSD Signal: SELL (Confidence: 64.4%)
+2025-08-12 20:22:05,888 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 71.20%)
+2025-08-12 20:22:05,889 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 71.2%)
+2025-08-12 20:22:35,892 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:22:35,910 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 76.18%)
+2025-08-12 20:22:35,911 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 76.2%)
+2025-08-12 20:22:35,926 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 59.96%)
+2025-08-12 20:22:35,926 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 60.0%)
+2025-08-12 20:23:05,927 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:23:05,940 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 59.98%)
+2025-08-12 20:23:05,940 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 60.0%)
+2025-08-12 20:23:05,955 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 59.06%)
+2025-08-12 20:23:05,955 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 59.1%)
+2025-08-12 20:23:35,959 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:23:35,972 - main - INFO - [SIGNAL] XAUUSD: SELL (Confidence: 63.47%)
+2025-08-12 20:23:35,973 - main - INFO - [TRADE] XAUUSD Signal: SELL (Confidence: 63.5%)
+2025-08-12 20:23:35,989 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 60.30%)
+2025-08-12 20:23:35,991 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 60.3%)
+2025-08-12 20:24:06,001 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:24:06,018 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 66.97%)
+2025-08-12 20:24:06,019 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 67.0%)
+2025-08-12 20:24:06,034 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 55.96%)
+2025-08-12 20:24:06,034 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 56.0%)
+2025-08-12 20:24:36,037 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:24:36,115 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 66.86%)
+2025-08-12 20:24:36,115 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 66.9%)
+2025-08-12 20:24:36,168 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 61.82%)
+2025-08-12 20:24:36,168 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 61.8%)
+2025-08-12 20:25:40,336 - main - INFO - [OK] AI Trading Bot initialized successfully
+2025-08-12 20:25:40,337 - main - INFO - [START] Starting AI Trading Bot...
+2025-08-12 20:25:40,338 - main - ERROR - Dashboard error: 'TradingDashboard' object has no attribute 'run_server'
+2025-08-12 20:25:40,338 - main - INFO - [SIGNAL] Dashboard started at http://127.0.0.1:8050
+2025-08-12 20:25:40,338 - main - INFO - [TRAIN] Training ML models...
+2025-08-12 20:25:40,421 - main - INFO - [OK] Model trained for XAUUSD
+2025-08-12 20:25:40,499 - main - INFO - [OK] Model trained for BTCUSD
+2025-08-12 20:25:40,499 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:25:40,511 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 68.24%)
+2025-08-12 20:25:40,511 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 68.2%)
+2025-08-12 20:25:40,524 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 69.41%)
+2025-08-12 20:25:40,524 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 69.4%)
+2025-08-12 20:26:10,532 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:26:10,598 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 61.81%)
+2025-08-12 20:26:10,675 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 61.90%)
+2025-08-12 20:26:10,676 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 61.9%)
+2025-08-12 20:26:40,692 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:26:40,744 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 68.36%)
+2025-08-12 20:26:40,745 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 68.4%)
+2025-08-12 20:26:40,797 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 56.94%)
+2025-08-12 20:27:10,803 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:27:10,864 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 57.67%)
+2025-08-12 20:27:10,924 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 69.27%)
+2025-08-12 20:27:10,925 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 69.3%)
+2025-08-12 20:27:40,937 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:27:40,966 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 78.70%)
+2025-08-12 20:27:40,966 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 78.7%)
+2025-08-12 20:27:40,984 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 60.42%)
+2025-08-12 20:29:21,581 - main - INFO - [OK] AI Trading Bot initialized successfully
+2025-08-12 20:29:21,582 - main - INFO - [START] Starting AI Trading Bot...
+2025-08-12 20:29:21,583 - main - ERROR - Dashboard error: 'TradingDashboard' object has no attribute 'run_server'
+2025-08-12 20:29:21,583 - main - INFO - [SIGNAL] Dashboard started at http://127.0.0.1:8050
+2025-08-12 20:29:21,584 - main - INFO - [TRAIN] Training ML models...
+2025-08-12 20:29:21,683 - main - INFO - [OK] Model trained for XAUUSD
+2025-08-12 20:29:21,775 - main - INFO - [OK] Model trained for BTCUSD
+2025-08-12 20:29:21,776 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:29:21,788 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 61.27%)
+2025-08-12 20:29:21,802 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 75.66%)
+2025-08-12 20:29:21,802 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 75.7%)
+2025-08-12 20:29:51,816 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:29:51,886 - main - INFO - [SIGNAL] XAUUSD: SELL (Confidence: 65.58%)
+2025-08-12 20:29:51,888 - main - INFO - [TRADE] XAUUSD Signal: SELL (Confidence: 65.6%)
+2025-08-12 20:29:51,951 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 64.01%)
+2025-08-12 20:29:51,952 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 64.0%)
+2025-08-12 20:30:21,954 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:30:22,010 - main - INFO - [SIGNAL] XAUUSD: SELL (Confidence: 59.62%)
+2025-08-12 20:30:22,011 - main - INFO - [TRADE] XAUUSD Signal: SELL (Confidence: 59.6%)
+2025-08-12 20:30:22,068 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 58.41%)
+2025-08-12 20:36:02,666 - main - INFO - [OK] AI Trading Bot initialized successfully
+2025-08-12 20:36:02,667 - main - INFO - [START] Starting AI Trading Bot...
+2025-08-12 20:36:02,668 - main - ERROR - Dashboard error: 'TradingDashboard' object has no attribute 'run_server'
+2025-08-12 20:36:02,668 - main - INFO - [SIGNAL] Dashboard started at http://127.0.0.1:8050
+2025-08-12 20:36:02,669 - main - INFO - [TRAIN] Training ML models...
+2025-08-12 20:36:02,814 - main - INFO - [OK] Model trained for XAUUSD
+2025-08-12 20:36:03,056 - main - INFO - [OK] Model trained for BTCUSD
+2025-08-12 20:36:03,057 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:36:03,086 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 62.55%)
+2025-08-12 20:36:03,087 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 62.6%)
+2025-08-12 20:36:03,110 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 68.08%)
+2025-08-12 20:36:03,111 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 68.1%)
+2025-08-12 20:36:33,117 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:36:33,142 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 64.50%)
+2025-08-12 20:36:33,143 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 64.5%)
+2025-08-12 20:36:33,161 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 65.52%)
+2025-08-12 20:36:33,161 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 65.5%)
+2025-08-12 20:37:03,165 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:37:03,228 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 62.50%)
+2025-08-12 20:37:03,229 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 62.5%)
+2025-08-12 20:37:03,289 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 78.20%)
+2025-08-12 20:37:03,290 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 78.2%)
+2025-08-12 20:37:33,306 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:37:33,366 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 64.55%)
+2025-08-12 20:37:33,431 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 64.53%)
+2025-08-12 20:37:33,432 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 64.5%)
+2025-08-12 20:38:03,436 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:38:03,493 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 68.69%)
+2025-08-12 20:38:03,494 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 68.7%)
+2025-08-12 20:38:03,553 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 53.89%)
+2025-08-12 20:39:37,182 - main - INFO - [OK] AI Trading Bot initialized successfully
+2025-08-12 20:39:37,182 - main - INFO - [START] Starting AI Trading Bot...
+2025-08-12 20:39:37,183 - main - INFO - [SIGNAL] Dashboard started at http://127.0.0.1:8050
+2025-08-12 20:39:37,184 - dash.dash - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-08-12 20:39:37,184 - main - INFO - [TRAIN] Training ML models...
+2025-08-12 20:39:37,224 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8050
+2025-08-12 20:39:37,235 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-12 20:39:37,304 - main - INFO - [OK] Model trained for XAUUSD
+2025-08-12 20:39:37,390 - main - INFO - [OK] Model trained for BTCUSD
+2025-08-12 20:39:37,391 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:39:37,404 - main - INFO - [SIGNAL] XAUUSD: SELL (Confidence: 62.50%)
+2025-08-12 20:39:37,404 - main - INFO - [TRADE] XAUUSD Signal: SELL (Confidence: 62.5%)
+2025-08-12 20:39:37,419 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 66.70%)
+2025-08-12 20:39:37,420 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 66.7%)
+2025-08-12 20:39:41,831 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:41] "GET / HTTP/1.1" 200 -
+2025-08-12 20:39:41,933 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:41] "GET /_dash-component-suites/dash/deps/react@18.v3_2_0m1755008237.3.1.min.js HTTP/1.1" 200 -
+2025-08-12 20:39:41,934 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:41] "GET /_dash-component-suites/dash/deps/prop-types@15.v3_2_0m1755008237.8.1.min.js HTTP/1.1" 200 -
+2025-08-12 20:39:41,963 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:41] "GET /_dash-component-suites/dash/deps/polyfill@7.v3_2_0m1755008237.12.1.min.js HTTP/1.1" 200 -
+2025-08-12 20:39:41,989 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:41] "GET /_dash-component-suites/dash/dcc/dash_core_components-shared.v3_2_0m1755008237.js HTTP/1.1" 200 -
+2025-08-12 20:39:41,989 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:41] "GET /_dash-component-suites/dash/deps/react-dom@18.v3_2_0m1755008237.3.1.min.js HTTP/1.1" 200 -
+2025-08-12 20:39:42,016 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:42] "GET /_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_2_0m1755008237.min.js HTTP/1.1" 200 -
+2025-08-12 20:39:42,030 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:42] "GET /_dash-component-suites/dash/dcc/dash_core_components.v3_2_0m1755008237.js HTTP/1.1" 200 -
+2025-08-12 20:39:42,068 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:42] "GET /_dash-component-suites/dash/dash_table/bundle.v6_0_4m1755008237.js HTTP/1.1" 200 -
+2025-08-12 20:39:42,069 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:42] "GET /_dash-component-suites/dash/html/dash_html_components.v3_0_4m1755008237.min.js HTTP/1.1" 200 -
+2025-08-12 20:39:42,447 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:42] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-12 20:39:42,465 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:42] "GET /_dash-layout HTTP/1.1" 200 -
+2025-08-12 20:39:42,468 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:42] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-08-12 20:39:42,702 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:42] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+2025-08-12 20:39:42,753 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:42] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-12 20:39:43,072 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:43] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:39:44,494 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:44] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+2025-08-12 20:39:47,794 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:47] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:39:52,790 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:52] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:39:54,841 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:54] "GET /api/signals HTTP/1.1" 200 -
+2025-08-12 20:39:57,787 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:39:57] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:40:02,790 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:40:02] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:40:07,431 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:40:07,489 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 58.55%)
+2025-08-12 20:40:07,490 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 58.5%)
+2025-08-12 20:40:07,554 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 64.61%)
+2025-08-12 20:40:07,555 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 64.6%)
+2025-08-12 20:40:07,808 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:40:07] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:40:12,805 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:40:12] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:40:17,797 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:40:17] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:40:22,782 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:40:22] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:40:24,847 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:40:24] "GET /api/signals HTTP/1.1" 200 -
+2025-08-12 20:40:28,958 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:40:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:40:33,945 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:40:33] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:40:37,557 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:40:37,594 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 65.33%)
+2025-08-12 20:40:37,656 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 58.14%)
+2025-08-12 20:40:37,657 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 58.1%)
+2025-08-12 20:40:38,934 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:40:38] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:40:43,929 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:40:43] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:40:48,918 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:40:48] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:40:53,927 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:40:53] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:40:54,826 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:40:54] "GET /api/signals HTTP/1.1" 200 -
+2025-08-12 20:40:58,923 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:40:58] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:41:02,787 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:41:02] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:41:07,667 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:41:07,733 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 59.54%)
+2025-08-12 20:41:07,735 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 59.5%)
+2025-08-12 20:41:07,802 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 62.12%)
+2025-08-12 20:41:07,803 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 62.1%)
+2025-08-12 20:41:08,915 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:41:08] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:41:13,939 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:41:13] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:41:18,925 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:41:18] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:41:23,895 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:41:23] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:41:24,856 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:41:24] "GET /api/signals HTTP/1.1" 200 -
+2025-08-12 20:41:28,876 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:41:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:41:33,940 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:41:33] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:41:37,817 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:41:37,862 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 62.33%)
+2025-08-12 20:41:37,863 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 62.3%)
+2025-08-12 20:41:37,904 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 68.86%)
+2025-08-12 20:41:37,904 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 68.9%)
+2025-08-12 20:41:38,999 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:41:38] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:41:43,929 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:41:43] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:41:48,976 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:41:48] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:41:54,062 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:41:54] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:41:54,857 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:41:54] "GET /api/signals HTTP/1.1" 200 -
+2025-08-12 20:41:58,940 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:41:58] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:42:03,973 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:42:03] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:42:07,905 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:42:07,948 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 71.38%)
+2025-08-12 20:42:07,949 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 71.4%)
+2025-08-12 20:42:07,991 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 63.03%)
+2025-08-12 20:42:07,992 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 63.0%)
+2025-08-12 20:42:24,829 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:42:24] "GET /api/signals HTTP/1.1" 200 -
+2025-08-12 20:42:37,993 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:42:38,047 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 61.50%)
+2025-08-12 20:42:38,047 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 61.5%)
+2025-08-12 20:42:38,111 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 62.33%)
+2025-08-12 20:42:38,112 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 62.3%)
+2025-08-12 20:42:38,962 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:42:38] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:43:08,119 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:43:08,181 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 65.61%)
+2025-08-12 20:43:08,182 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 65.6%)
+2025-08-12 20:43:08,232 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 63.44%)
+2025-08-12 20:43:08,232 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 63.4%)
+2025-08-12 20:43:37,859 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:43:37] "GET /api/signals HTTP/1.1" 200 -
+2025-08-12 20:43:38,245 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:43:38,261 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 60.00%)
+2025-08-12 20:43:38,278 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 73.43%)
+2025-08-12 20:43:38,279 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 73.4%)
+2025-08-12 20:43:38,924 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:43:38] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 20:44:08,294 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:44:08,345 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 60.33%)
+2025-08-12 20:44:08,391 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 60.76%)
+2025-08-12 20:44:08,393 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 60.8%)
+2025-08-12 20:44:37,842 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:44:37] "GET /api/signals HTTP/1.1" 200 -
+2025-08-12 20:44:38,407 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 20:44:38,456 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 55.85%)
+2025-08-12 20:44:38,498 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 62.81%)
+2025-08-12 20:44:38,499 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 62.8%)
+2025-08-12 20:44:38,964 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 20:44:38] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 22:41:54,481 - main - INFO - [OK] AI Trading Bot initialized successfully
+2025-08-12 22:41:54,482 - main - INFO - [START] Starting AI Trading Bot...
+2025-08-12 22:41:54,483 - main - INFO - [SIGNAL] Dashboard started at http://127.0.0.1:8050
+2025-08-12 22:41:54,483 - dash.dash - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-08-12 22:41:54,484 - main - INFO - [TRAIN] Training ML models...
+2025-08-12 22:41:54,591 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8050
+2025-08-12 22:41:54,592 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-12 22:41:54,632 - main - INFO - [OK] Model trained for XAUUSD
+2025-08-12 22:41:54,725 - main - INFO - [OK] Model trained for BTCUSD
+2025-08-12 22:41:54,726 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 22:41:54,745 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 62.08%)
+2025-08-12 22:41:54,746 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 62.1%)
+2025-08-12 22:41:54,763 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 62.44%)
+2025-08-12 22:41:54,764 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 62.4%)
+2025-08-12 22:41:56,776 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:41:56] "GET / HTTP/1.1" 200 -
+2025-08-12 22:41:56,860 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:41:56] "GET /_dash-component-suites/dash/deps/react@18.v3_2_0m1755008237.3.1.min.js HTTP/1.1" 200 -
+2025-08-12 22:41:56,861 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:41:56] "GET /_dash-component-suites/dash/deps/prop-types@15.v3_2_0m1755008237.8.1.min.js HTTP/1.1" 200 -
+2025-08-12 22:41:56,895 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:41:56] "GET /_dash-component-suites/dash/deps/polyfill@7.v3_2_0m1755008237.12.1.min.js HTTP/1.1" 200 -
+2025-08-12 22:41:56,925 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:41:56] "GET /_dash-component-suites/dash/dcc/dash_core_components-shared.v3_2_0m1755008237.js HTTP/1.1" 200 -
+2025-08-12 22:41:56,926 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:41:56] "GET /_dash-component-suites/dash/deps/react-dom@18.v3_2_0m1755008237.3.1.min.js HTTP/1.1" 200 -
+2025-08-12 22:41:56,948 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:41:56] "GET /_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_2_0m1755008237.min.js HTTP/1.1" 200 -
+2025-08-12 22:41:56,992 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:41:56] "GET /_dash-component-suites/dash/html/dash_html_components.v3_0_4m1755008237.min.js HTTP/1.1" 200 -
+2025-08-12 22:41:57,001 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:41:57] "GET /_dash-component-suites/dash/dcc/dash_core_components.v3_2_0m1755008237.js HTTP/1.1" 200 -
+2025-08-12 22:41:57,012 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:41:57] "GET /_dash-component-suites/dash/dash_table/bundle.v6_0_4m1755008237.js HTTP/1.1" 200 -
+2025-08-12 22:41:57,337 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:41:57] "GET /_dash-layout HTTP/1.1" 200 -
+2025-08-12 22:41:57,338 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:41:57] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-08-12 22:41:57,345 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:41:57] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-12 22:41:57,418 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:41:57] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+2025-08-12 22:41:57,866 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:41:57] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 22:41:59,274 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:41:59] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+2025-08-12 22:42:00,473 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:42:00] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-12 22:42:02,525 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:42:02] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 22:42:07,519 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:42:07] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 22:42:12,497 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:42:12] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 22:42:17,489 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:42:17] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 22:42:22,482 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:42:22] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 22:42:24,771 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 22:42:24,823 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 60.67%)
+2025-08-12 22:42:24,824 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 60.7%)
+2025-08-12 22:42:24,892 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 64.32%)
+2025-08-12 22:42:27,509 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:42:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 22:42:32,503 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:42:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 22:42:37,498 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:42:37] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 22:42:42,497 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:42:42] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 22:42:47,497 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:42:47] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 22:42:52,478 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:42:52] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 22:42:54,909 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 22:42:54,969 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 71.00%)
+2025-08-12 22:42:54,970 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 71.0%)
+2025-08-12 22:42:55,030 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 60.39%)
+2025-08-12 22:42:55,031 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 60.4%)
+2025-08-12 22:42:57,512 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:42:57] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:07:21,290 - main - INFO - [OK] AI Trading Bot initialized successfully
+2025-08-12 23:07:21,291 - main - INFO - [START] Starting AI Trading Bot...
+2025-08-12 23:07:21,292 - main - INFO - [SIGNAL] Dashboard started at http://127.0.0.1:8050
+2025-08-12 23:07:21,293 - main - INFO - [TRAIN] Training ML models...
+2025-08-12 23:07:21,293 - dash.dash - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-08-12 23:07:21,369 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8050
+2025-08-12 23:07:21,370 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-12 23:07:21,401 - main - INFO - [OK] Model trained for XAUUSD
+2025-08-12 23:07:21,508 - main - INFO - [OK] Model trained for BTCUSD
+2025-08-12 23:07:21,508 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:07:21,520 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 72.11%)
+2025-08-12 23:07:21,521 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 72.1%)
+2025-08-12 23:07:21,538 - main - INFO - [SIGNAL] BTCUSD: BUY (Confidence: 59.58%)
+2025-08-12 23:07:21,539 - main - INFO - [TRADE] BTCUSD Signal: BUY (Confidence: 59.6%)
+2025-08-12 23:07:22,728 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:07:22] "GET / HTTP/1.1" 200 -
+2025-08-12 23:07:23,306 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:07:23] "GET /_dash-layout HTTP/1.1" 200 -
+2025-08-12 23:07:23,308 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:07:23] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-08-12 23:07:23,310 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:07:23] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-12 23:07:23,351 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:07:23] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-08-12 23:07:23,667 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:07:23] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:07:23,886 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:07:23] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:07:25,083 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:07:25] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-08-12 23:07:28,469 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:07:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:07:28,946 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:07:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:07:33,450 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:07:33] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:07:33,897 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:07:33] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:07:38,457 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:07:38] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:07:38,922 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:07:38] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:07:43,453 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:07:43] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:07:43,949 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:07:43] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:07:48,447 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:07:48] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:07:48,934 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:07:48] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:07:51,544 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:07:51,624 - main - INFO - [SIGNAL] XAUUSD: SELL (Confidence: 62.25%)
+2025-08-12 23:07:51,625 - main - INFO - [TRADE] XAUUSD Signal: SELL (Confidence: 62.3%)
+2025-08-12 23:07:51,700 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 77.78%)
+2025-08-12 23:07:51,701 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 77.8%)
+2025-08-12 23:07:53,446 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:07:53] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:07:59,941 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:07:59] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:08:04,877 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:08:04] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:08:09,879 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:08:09] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:08:14,879 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:08:14] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:08:19,866 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:08:19] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:08:21,708 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:08:21,728 - main - INFO - [SIGNAL] XAUUSD: BUY (Confidence: 67.53%)
+2025-08-12 23:08:21,728 - main - INFO - [TRADE] XAUUSD Signal: BUY (Confidence: 67.5%)
+2025-08-12 23:08:21,746 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 77.49%)
+2025-08-12 23:08:21,746 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 77.5%)
+2025-08-12 23:08:24,890 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:08:24] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:40:52,586 - main - INFO - [OK] AI Trading Bot initialized successfully
+2025-08-12 23:40:52,588 - main - INFO - [START] Starting AI Trading Bot...
+2025-08-12 23:40:52,589 - main - INFO - [SIGNAL] Dashboard started at http://127.0.0.1:8050
+2025-08-12 23:40:52,590 - main - INFO - [TRAIN] Training ML models...
+2025-08-12 23:40:52,589 - dash.dash - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-08-12 23:40:52,647 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8050
+2025-08-12 23:40:52,648 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-12 23:40:52,694 - main - INFO - [OK] Model trained for XAUUSD
+2025-08-12 23:40:52,787 - main - INFO - [OK] Model trained for BTCUSD
+2025-08-12 23:40:52,787 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:40:52,799 - main - INFO - [SIGNAL] XAUUSD: SELL (Confidence: 63.97%)
+2025-08-12 23:40:52,800 - main - INFO - [TRADE] XAUUSD Signal: SELL (Confidence: 64.0%)
+2025-08-12 23:40:52,815 - main - INFO - [SIGNAL] BTCUSD: SELL (Confidence: 73.96%)
+2025-08-12 23:40:52,816 - main - INFO - [TRADE] BTCUSD Signal: SELL (Confidence: 74.0%)
+2025-08-12 23:40:55,994 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:40:55] "GET / HTTP/1.1" 200 -
+2025-08-12 23:40:56,538 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:40:56] "GET /_dash-layout HTTP/1.1" 200 -
+2025-08-12 23:40:56,540 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:40:56] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-08-12 23:40:56,546 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:40:56] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-12 23:40:56,587 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:40:56] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-08-12 23:40:57,003 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:40:57] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:40:58,386 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:40:58] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-08-12 23:41:01,694 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:41:01] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:44:36,772 - data.data_collector - INFO - ✅ MT5 connected successfully - REAL DATA MODE
+2025-08-12 23:44:36,773 - data.data_collector - INFO - Account Balance: $1000000.00 INR
+2025-08-12 23:44:36,773 - data.data_collector - INFO - Leverage: 1:2000
+2025-08-12 23:44:36,926 - main - INFO - [OK] AI Trading Bot initialized successfully
+2025-08-12 23:44:36,927 - main - INFO - [START] Starting AI Trading Bot...
+2025-08-12 23:44:36,928 - main - INFO - [SIGNAL] Dashboard started at http://127.0.0.1:8050
+2025-08-12 23:44:36,929 - main - INFO - [TRAIN] Training ML models...
+2025-08-12 23:44:36,929 - dash.dash - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-08-12 23:44:36,931 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3349.02
+2025-08-12 23:44:36,932 - data.data_collector - INFO - ✅ Retrieved 500 real bars for XAUUSD
+2025-08-12 23:44:36,996 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8050
+2025-08-12 23:44:36,997 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-12 23:44:37,027 - main - INFO - [OK] Model trained for XAUUSD
+2025-08-12 23:44:37,028 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119802.01
+2025-08-12 23:44:37,029 - data.data_collector - INFO - ✅ Retrieved 500 real bars for BTCUSD
+2025-08-12 23:44:37,117 - main - INFO - [OK] Model trained for BTCUSD
+2025-08-12 23:44:37,118 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:44:37,119 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3349.02
+2025-08-12 23:44:37,119 - data.data_collector - INFO - ✅ Retrieved 100 real bars for XAUUSD
+2025-08-12 23:44:37,130 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 45.15%)
+2025-08-12 23:44:37,131 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119808.50
+2025-08-12 23:44:37,132 - data.data_collector - INFO - ✅ Retrieved 100 real bars for BTCUSD
+2025-08-12 23:44:37,143 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 44.61%)
+2025-08-12 23:44:38,115 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:44:38] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:44:39,137 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:44:39] "GET / HTTP/1.1" 200 -
+2025-08-12 23:44:39,446 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:44:39] "GET /_dash-layout HTTP/1.1" 200 -
+2025-08-12 23:44:39,447 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:44:39] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-08-12 23:44:39,547 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:44:39] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-12 23:44:39,581 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:44:39] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-08-12 23:44:39,608 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:44:39] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:44:41,596 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:44:41] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-08-12 23:44:44,580 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:44:44] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:44:49,520 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:44:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:44:49,706 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:44:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:44:52,093 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:44:52] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:45:03,228 - data.data_collector - INFO - ✅ MT5 connected successfully - REAL DATA MODE
+2025-08-12 23:45:03,228 - data.data_collector - INFO - Account Balance: $1000000.00 INR
+2025-08-12 23:45:03,229 - data.data_collector - INFO - Leverage: 1:2000
+2025-08-12 23:45:03,244 - main - INFO - [OK] AI Trading Bot initialized successfully
+2025-08-12 23:45:03,245 - main - INFO - [START] Starting AI Trading Bot...
+2025-08-12 23:45:03,245 - main - INFO - [SIGNAL] Dashboard started at http://127.0.0.1:8050
+2025-08-12 23:45:03,246 - main - INFO - [TRAIN] Training ML models...
+2025-08-12 23:45:03,246 - dash.dash - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-08-12 23:45:03,249 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3349.68
+2025-08-12 23:45:03,250 - data.data_collector - INFO - ✅ Retrieved 500 real bars for XAUUSD
+2025-08-12 23:45:03,284 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8050
+2025-08-12 23:45:03,284 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-12 23:45:03,350 - main - INFO - [OK] Model trained for XAUUSD
+2025-08-12 23:45:03,352 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119808.62
+2025-08-12 23:45:03,352 - data.data_collector - INFO - ✅ Retrieved 500 real bars for BTCUSD
+2025-08-12 23:45:03,442 - main - INFO - [OK] Model trained for BTCUSD
+2025-08-12 23:45:03,443 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:45:03,444 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3349.68
+2025-08-12 23:45:03,445 - data.data_collector - INFO - ✅ Retrieved 100 real bars for XAUUSD
+2025-08-12 23:45:03,457 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 44.57%)
+2025-08-12 23:45:03,459 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119808.62
+2025-08-12 23:45:03,459 - data.data_collector - INFO - ✅ Retrieved 100 real bars for BTCUSD
+2025-08-12 23:45:03,472 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 44.28%)
+2025-08-12 23:45:07,713 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:07] "GET / HTTP/1.1" 200 -
+2025-08-12 23:45:08,291 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:08] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-12 23:45:08,302 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:08] "GET /_dash-layout HTTP/1.1" 200 -
+2025-08-12 23:45:08,302 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:08] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-08-12 23:45:08,494 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:08] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-08-12 23:45:08,501 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:08] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-08-12 23:45:08,739 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:08] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:45:13,623 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:13] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:45:18,606 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:18] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:45:23,937 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:23] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:45:28,966 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:45:33,478 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:45:33,484 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3349.87
+2025-08-12 23:45:33,486 - data.data_collector - INFO - ✅ Retrieved 100 real bars for XAUUSD
+2025-08-12 23:45:33,559 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 43.15%)
+2025-08-12 23:45:33,563 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119874.60
+2025-08-12 23:45:33,564 - data.data_collector - INFO - ✅ Retrieved 100 real bars for BTCUSD
+2025-08-12 23:45:33,612 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 37.47%)
+2025-08-12 23:45:33,945 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:33] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:45:39,948 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:39] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:45:44,945 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:44] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:45:48,614 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:48] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:45:52,637 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:52] "GET / HTTP/1.1" 200 -
+2025-08-12 23:45:52,780 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:52] "GET /_dash-component-suites/dash/deps/react@18.v3_2_0m1755008237.3.1.min.js HTTP/1.1" 200 -
+2025-08-12 23:45:52,799 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:52] "GET /_dash-component-suites/dash/deps/prop-types@15.v3_2_0m1755008237.8.1.min.js HTTP/1.1" 200 -
+2025-08-12 23:45:52,849 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:52] "GET /_dash-component-suites/dash/deps/react-dom@18.v3_2_0m1755008237.3.1.min.js HTTP/1.1" 200 -
+2025-08-12 23:45:52,866 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:52] "GET /_dash-component-suites/dash/dcc/dash_core_components-shared.v3_2_0m1755008237.js HTTP/1.1" 200 -
+2025-08-12 23:45:52,871 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:52] "GET /_dash-component-suites/dash/deps/polyfill@7.v3_2_0m1755008237.12.1.min.js HTTP/1.1" 200 -
+2025-08-12 23:45:52,876 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:52] "GET /_dash-component-suites/dash/dash_table/bundle.v6_0_4m1755008237.js HTTP/1.1" 200 -
+2025-08-12 23:45:52,989 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:52] "GET /_dash-component-suites/dash/html/dash_html_components.v3_0_4m1755008237.min.js HTTP/1.1" 200 -
+2025-08-12 23:45:52,997 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:52] "GET /_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_2_0m1755008237.min.js HTTP/1.1" 200 -
+2025-08-12 23:45:53,007 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:53] "GET /_dash-component-suites/dash/dcc/dash_core_components.v3_2_0m1755008237.js HTTP/1.1" 200 -
+2025-08-12 23:45:53,177 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:53] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-12 23:45:53,181 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:53] "GET /_dash-layout HTTP/1.1" 200 -
+2025-08-12 23:45:53,185 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:53] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-08-12 23:45:53,270 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:53] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+2025-08-12 23:45:53,280 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:53] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+2025-08-12 23:45:53,419 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:53] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-12 23:45:53,454 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:53] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:45:54,933 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:54] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:45:58,397 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:58] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:45:59,946 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:45:59] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:03,618 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:46:03,621 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3350.07
+2025-08-12 23:46:03,622 - data.data_collector - INFO - ✅ Retrieved 100 real bars for XAUUSD
+2025-08-12 23:46:03,667 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 41.95%)
+2025-08-12 23:46:03,672 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119839.35
+2025-08-12 23:46:03,672 - data.data_collector - INFO - ✅ Retrieved 100 real bars for BTCUSD
+2025-08-12 23:46:03,735 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 39.48%)
+2025-08-12 23:46:04,007 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:04] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:04,987 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:04] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:09,043 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:09] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:09,972 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:09] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:14,064 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:14] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:14,948 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:14] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:18,995 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:18] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:19,939 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:19] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:24,992 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:24] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:25,079 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:25] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:30,013 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:30,060 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:33,750 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:46:33,757 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3350.36
+2025-08-12 23:46:33,758 - data.data_collector - INFO - ✅ Retrieved 100 real bars for XAUUSD
+2025-08-12 23:46:33,819 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 40.55%)
+2025-08-12 23:46:33,823 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119942.66
+2025-08-12 23:46:33,824 - data.data_collector - INFO - ✅ Retrieved 100 real bars for BTCUSD
+2025-08-12 23:46:33,889 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 36.74%)
+2025-08-12 23:46:34,991 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:35,077 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:35] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:39,953 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:39] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:40,055 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:44,982 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:44] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:45,050 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:45] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:50,002 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:54,972 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:54] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:46:59,963 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:46:59] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:47:03,897 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:47:03,900 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3350.39
+2025-08-12 23:47:03,901 - data.data_collector - INFO - ✅ Retrieved 100 real bars for XAUUSD
+2025-08-12 23:47:03,953 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 39.02%)
+2025-08-12 23:47:03,957 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119946.63
+2025-08-12 23:47:03,958 - data.data_collector - INFO - ✅ Retrieved 100 real bars for BTCUSD
+2025-08-12 23:47:04,015 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 37.26%)
+2025-08-12 23:47:32,960 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:47:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:47:33,225 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:47:33] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:47:34,033 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:47:34,066 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3350.14
+2025-08-12 23:47:34,079 - data.data_collector - INFO - ✅ Retrieved 100 real bars for XAUUSD
+2025-08-12 23:47:34,097 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:47:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:47:34,152 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 40.46%)
+2025-08-12 23:47:34,155 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119946.35
+2025-08-12 23:47:34,155 - data.data_collector - INFO - ✅ Retrieved 100 real bars for BTCUSD
+2025-08-12 23:47:34,205 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 37.26%)
+2025-08-12 23:47:34,579 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:47:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:47:34,930 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:47:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:48:04,211 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:48:04,214 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3350.18
+2025-08-12 23:48:04,215 - data.data_collector - INFO - ✅ Retrieved 100 real bars for XAUUSD
+2025-08-12 23:48:04,280 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 40.46%)
+2025-08-12 23:48:04,285 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119993.80
+2025-08-12 23:48:04,286 - data.data_collector - INFO - ✅ Retrieved 100 real bars for BTCUSD
+2025-08-12 23:48:04,365 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 37.16%)
+2025-08-12 23:48:34,058 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:48:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:48:34,254 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:48:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:48:34,373 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:48:34,378 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3349.97
+2025-08-12 23:48:34,378 - data.data_collector - INFO - ✅ Retrieved 100 real bars for XAUUSD
+2025-08-12 23:48:34,638 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 41.16%)
+2025-08-12 23:48:34,681 - data.data_collector - INFO - 📊 LIVE BTCUSD: $120092.58
+2025-08-12 23:48:34,711 - data.data_collector - INFO - ✅ Retrieved 100 real bars for BTCUSD
+2025-08-12 23:48:34,813 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:48:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:48:35,077 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:48:35] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:48:35,112 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 36.79%)
+2025-08-12 23:49:05,122 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:49:05,125 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3349.40
+2025-08-12 23:49:05,126 - data.data_collector - INFO - ✅ Retrieved 100 real bars for XAUUSD
+2025-08-12 23:49:05,187 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 40.45%)
+2025-08-12 23:49:05,190 - data.data_collector - INFO - 📊 LIVE BTCUSD: $120009.64
+2025-08-12 23:49:05,191 - data.data_collector - INFO - ✅ Retrieved 100 real bars for BTCUSD
+2025-08-12 23:49:05,252 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 35.50%)
+2025-08-12 23:50:01,510 - data.data_collector - INFO - ✅ REAL MT5 CONNECTED - Balance: $1000000.00 INR
+2025-08-12 23:50:01,665 - main - INFO - [OK] AI Trading Bot initialized successfully
+2025-08-12 23:50:01,665 - main - INFO - [START] Starting AI Trading Bot...
+2025-08-12 23:50:01,666 - main - INFO - [SIGNAL] Dashboard started at http://127.0.0.1:8050
+2025-08-12 23:50:01,667 - main - INFO - 📊 DEMO MODE - No real trades will execute
+2025-08-12 23:50:01,667 - dash.dash - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-08-12 23:50:01,668 - main - INFO - [TRAIN] Training ML models...
+2025-08-12 23:50:01,670 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3349.35
+2025-08-12 23:50:01,733 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8050
+2025-08-12 23:50:01,734 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-12 23:50:01,771 - main - INFO - [OK] Model trained for XAUUSD
+2025-08-12 23:50:01,772 - data.data_collector - INFO - 📊 LIVE BTCUSD: $120036.26
+2025-08-12 23:50:01,862 - main - INFO - [OK] Model trained for BTCUSD
+2025-08-12 23:50:01,863 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:50:01,864 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3349.35
+2025-08-12 23:50:01,879 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 45.51%)
+2025-08-12 23:50:01,881 - data.data_collector - INFO - 📊 LIVE BTCUSD: $120036.26
+2025-08-12 23:50:01,895 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 44.93%)
+2025-08-12 23:50:02,126 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:02] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:50:03,569 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:03] "GET / HTTP/1.1" 200 -
+2025-08-12 23:50:03,832 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:03] "GET /_dash-layout HTTP/1.1" 200 -
+2025-08-12 23:50:03,833 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:03] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-08-12 23:50:03,838 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:03] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-12 23:50:03,966 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:03] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:50:03,967 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:03] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-08-12 23:50:04,991 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:04] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:50:05,972 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:05] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-08-12 23:50:08,984 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:08] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:50:13,974 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:13] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:50:18,978 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:18] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:50:23,337 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:23] "GET / HTTP/1.1" 200 -
+2025-08-12 23:50:23,730 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:23] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-12 23:50:23,766 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:23] "GET /_dash-layout HTTP/1.1" 200 -
+2025-08-12 23:50:23,769 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:23] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-08-12 23:50:24,048 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:24] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:50:24,049 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:24] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-08-12 23:50:24,051 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:24] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-08-12 23:50:29,040 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:29] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:50:31,906 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:50:31,910 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3348.80
+2025-08-12 23:50:31,971 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 41.56%)
+2025-08-12 23:50:31,978 - data.data_collector - INFO - 📊 LIVE BTCUSD: $120024.28
+2025-08-12 23:50:32,043 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 44.11%)
+2025-08-12 23:50:33,964 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:33] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:50:34,132 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:50:34,309 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:50:34,591 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:50:35,002 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:35] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:50:39,993 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:39] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:50:45,022 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:45] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:50:49,976 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:50:55,916 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:50:55] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:51:00,908 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:51:00] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:51:02,044 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:51:02,048 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3349.30
+2025-08-12 23:51:02,071 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 44.11%)
+2025-08-12 23:51:02,074 - data.data_collector - INFO - 📊 LIVE BTCUSD: $120006.42
+2025-08-12 23:51:02,088 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 43.41%)
+2025-08-12 23:51:05,928 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:51:05] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:51:10,905 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:51:10] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:51:14,488 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:51:14] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:51:19,047 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:51:19] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:51:24,103 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:51:24] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:51:29,586 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:51:29] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:51:32,099 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:51:32,104 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3349.23
+2025-08-12 23:51:32,140 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 43.76%)
+2025-08-12 23:51:32,143 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119948.68
+2025-08-12 23:51:32,184 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 37.11%)
+2025-08-12 23:51:34,055 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:51:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:51:34,161 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:51:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:51:34,236 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:51:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:51:34,394 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:51:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:51:34,674 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:51:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:51:41,002 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:51:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:51:48,172 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:51:48] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:51:49,038 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:51:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:51:55,978 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:51:55] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:52:00,992 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:52:00] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:52:02,199 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:52:02,201 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3349.12
+2025-08-12 23:52:02,239 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 43.66%)
+2025-08-12 23:52:02,242 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119950.82
+2025-08-12 23:52:02,286 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 37.11%)
+2025-08-12 23:52:05,994 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:52:05] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:52:10,993 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:52:10] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:52:16,070 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:52:16] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:52:20,982 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:52:20] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:52:25,995 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:52:25] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:52:31,071 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:52:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:52:32,299 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:52:32,301 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3349.26
+2025-08-12 23:52:32,355 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 43.76%)
+2025-08-12 23:52:32,359 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119899.71
+2025-08-12 23:52:32,416 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 35.46%)
+2025-08-12 23:52:34,017 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:52:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:52:34,117 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:52:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:52:34,350 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:52:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:52:34,603 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:52:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:52:35,999 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:52:35] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:52:40,992 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:52:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:52:45,991 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:52:45] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:52:51,059 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:52:51] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:53:02,427 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:53:02,430 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3348.87
+2025-08-12 23:53:02,483 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 42.61%)
+2025-08-12 23:53:02,485 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119889.29
+2025-08-12 23:53:02,536 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 35.46%)
+2025-08-12 23:53:32,545 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-12 23:53:32,548 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3348.60
+2025-08-12 23:53:32,566 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 41.42%)
+2025-08-12 23:53:32,568 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119890.60
+2025-08-12 23:53:32,579 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 35.46%)
+2025-08-12 23:53:33,885 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:53:33] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:53:33,954 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:53:33] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:53:33,976 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:53:33] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:53:34,164 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:53:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:53:34,376 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:53:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-12 23:53:35,911 - werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:53:35] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:32:49,390 - data.data_collector - INFO - ✅ REAL MT5 CONNECTED - Balance: $1000000.00 INR
+2025-08-13 13:32:49,652 - main - INFO - [OK] AI Trading Bot initialized successfully
+2025-08-13 13:32:49,652 - main - INFO - [START] Starting AI Trading Bot...
+2025-08-13 13:32:49,654 - main - INFO - [SIGNAL] Dashboard started at http://127.0.0.1:8050
+2025-08-13 13:32:49,655 - dash.dash - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-08-13 13:32:49,655 - main - INFO - 📊 DEMO MODE - No real trades will execute
+2025-08-13 13:32:49,656 - main - INFO - [TRAIN] Training ML models...
+2025-08-13 13:32:49,737 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3354.23
+2025-08-13 13:32:49,845 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8050
+2025-08-13 13:32:49,847 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-13 13:32:49,941 - main - INFO - [OK] Model trained for XAUUSD
+2025-08-13 13:32:50,017 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119542.07
+2025-08-13 13:32:50,202 - main - INFO - [OK] Model trained for BTCUSD
+2025-08-13 13:32:50,203 - main - INFO - [CYCLE] Running trading cycle...
+2025-08-13 13:32:50,204 - main - INFO - 💰 Current Balance: $1,000,000.00 INR
+2025-08-13 13:32:50,207 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3354.22
+2025-08-13 13:32:50,254 - main - INFO - [SIGNAL] XAUUSD: HOLD (Confidence: 49.51%)
+2025-08-13 13:32:50,256 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119555.82
+2025-08-13 13:32:50,292 - main - INFO - [SIGNAL] BTCUSD: HOLD (Confidence: 41.48%)
+2025-08-13 13:32:50,670 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:32:50] "GET / HTTP/1.1" 200 -
+2025-08-13 13:32:50,778 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:32:50] "GET /_dash-component-suites/dash/deps/react@18.v3_2_0m1755008237.3.1.min.js HTTP/1.1" 200 -
+2025-08-13 13:32:50,779 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:32:50] "GET /_dash-component-suites/dash/deps/prop-types@15.v3_2_0m1755008237.8.1.min.js HTTP/1.1" 200 -
+2025-08-13 13:32:50,812 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:32:50] "GET /_dash-component-suites/dash/deps/polyfill@7.v3_2_0m1755008237.12.1.min.js HTTP/1.1" 200 -
+2025-08-13 13:32:50,847 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:32:50] "GET /_dash-component-suites/dash/deps/react-dom@18.v3_2_0m1755008237.3.1.min.js HTTP/1.1" 200 -
+2025-08-13 13:32:50,853 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:32:50] "GET /_dash-component-suites/dash/dcc/dash_core_components-shared.v3_2_0m1755008237.js HTTP/1.1" 200 -
+2025-08-13 13:32:50,897 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:32:50] "GET /_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_2_0m1755008237.min.js HTTP/1.1" 200 -
+2025-08-13 13:32:50,898 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:32:50] "GET /_dash-component-suites/dash/dash_table/bundle.v6_0_4m1755008237.js HTTP/1.1" 200 -
+2025-08-13 13:32:50,909 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:32:50] "GET /_dash-component-suites/dash/dcc/dash_core_components.v3_2_0m1755008237.js HTTP/1.1" 200 -
+2025-08-13 13:32:50,995 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:32:50] "GET /_dash-component-suites/dash/html/dash_html_components.v3_0_4m1755008237.min.js HTTP/1.1" 200 -
+2025-08-13 13:32:51,477 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:32:51] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-13 13:32:51,505 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:32:51] "GET /_dash-layout HTTP/1.1" 200 -
+2025-08-13 13:32:51,507 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:32:51] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-08-13 13:32:51,796 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:32:51] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+2025-08-13 13:32:51,904 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:32:51] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-13 13:32:52,294 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:32:52] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:32:53,734 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:32:53] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+2025-08-13 13:32:56,858 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:32:56] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:33:06,041 - data.data_collector - INFO - ✅ REAL MT5 CONNECTED - Balance: $1000000.00 INR
+2025-08-13 13:33:06,069 - enhanced_main - INFO - 🤖 Enhanced AI Trading Bot initialized successfully
+2025-08-13 13:33:06,069 - enhanced_main - INFO - 🚀 Starting Enhanced AI Trading Bot...
+2025-08-13 13:33:06,070 - enhanced_main - INFO - 📊 Dashboard started at http://127.0.0.1:8050
+2025-08-13 13:33:06,071 - dash.dash - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-08-13 13:33:06,072 - enhanced_main - INFO - 📊 DEMO MODE - Dashboard only, no real trades
+2025-08-13 13:33:06,072 - enhanced_main - INFO - ✅ MT5 Connected - Using LIVE data
+2025-08-13 13:33:06,072 - enhanced_main - INFO - 🧠 Training ML models...
+2025-08-13 13:33:06,077 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3353.99
+2025-08-13 13:33:06,119 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8050
+2025-08-13 13:33:06,121 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-13 13:33:06,363 - enhanced_main - INFO - ✅ Model trained for XAUUSD with 1000 samples
+2025-08-13 13:33:06,366 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119586.23
+2025-08-13 13:33:06,648 - enhanced_main - INFO - ✅ Model trained for BTCUSD with 1000 samples
+2025-08-13 13:33:06,649 - enhanced_main - INFO - ============================================================
+2025-08-13 13:33:06,649 - enhanced_main - INFO - 📈 TRADING SUMMARY
+2025-08-13 13:33:06,649 - enhanced_main - INFO - ============================================================
+2025-08-13 13:33:06,649 - enhanced_main - INFO - 💰 Account Balance: $1,000,000.00
+2025-08-13 13:33:06,649 - enhanced_main - INFO - 📊 Current Equity: $1,000,000.00
+2025-08-13 13:33:06,650 - enhanced_main - INFO - 📈 Unrealized P&L: $0.00
+2025-08-13 13:33:06,650 - enhanced_main - INFO - 🎯 Open Positions: 0
+2025-08-13 13:33:06,650 - enhanced_main - INFO - 📊 Trades Today: 0
+2025-08-13 13:33:06,650 - enhanced_main - INFO - ============================================================
+2025-08-13 13:33:06,650 - enhanced_main - INFO - 🔄 Trading Cycle #1
+2025-08-13 13:33:06,651 - enhanced_main - INFO - 💰 Balance: $1,000,000.00 | Equity: $1,000,000.00
+2025-08-13 13:33:06,652 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3353.99
+2025-08-13 13:33:06,695 - enhanced_main - INFO - 📊 XAUUSD @ $3353.985: HOLD (Conf: 36.2%, ML: 0.0)
+2025-08-13 13:33:06,697 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119591.02
+2025-08-13 13:33:06,735 - enhanced_main - INFO - 📊 BTCUSD @ $119591.02: HOLD (Conf: 36.1%, ML: 0.0)
+2025-08-13 13:33:07,812 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:33:07] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:33:09,216 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:33:09] "GET / HTTP/1.1" 200 -
+2025-08-13 13:33:10,027 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:33:10] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-13 13:33:10,060 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:33:10] "GET /_dash-layout HTTP/1.1" 200 -
+2025-08-13 13:33:10,063 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:33:10] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-08-13 13:33:10,323 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:33:10] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-08-13 13:33:10,366 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:33:10] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-08-13 13:33:10,435 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:33:10] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:33:12,618 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:33:12] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:33:15,403 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:33:15] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:33:17,622 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:33:17] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:33:20,412 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:33:20] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:33:25,411 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:33:25] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:33:30,423 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:33:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:33:35,414 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:33:35] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:33:40,420 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:33:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:33:45,412 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:33:45] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:33:50,416 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:33:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:33:55,420 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:33:55] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:34:00,423 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:34:00] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:34:05,416 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:34:05] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:34:10,408 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:34:10] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:34:15,417 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:34:15] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:34:20,422 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:34:20] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:34:22,492 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:34:22] "GET / HTTP/1.1" 200 -
+2025-08-13 13:34:22,634 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:34:22] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-13 13:34:22,644 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:34:22] "GET /_dash-layout HTTP/1.1" 200 -
+2025-08-13 13:34:22,646 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:34:22] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-08-13 13:34:22,680 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:34:22] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-08-13 13:34:22,696 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:34:22] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-08-13 13:34:22,800 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:34:22] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:34:22,800 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:34:22] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-13 13:34:27,783 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:34:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:34:32,768 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:34:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:34:37,773 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:34:37] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:34:42,782 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:34:42] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:34:47,780 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:34:47] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:34:52,794 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:34:52] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:34:57,761 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:34:57] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:35:02,766 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:35:02] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:35:07,780 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:35:07] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:35:12,764 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:35:12] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:35:17,767 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:35:17] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:35:22,777 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:35:22] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:35:26,306 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:35:26] "GET / HTTP/1.1" 200 -
+2025-08-13 13:35:26,446 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:35:26] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-13 13:35:26,460 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:35:26] "GET /_dash-layout HTTP/1.1" 200 -
+2025-08-13 13:35:26,463 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:35:26] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-08-13 13:35:26,494 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:35:26] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-08-13 13:35:26,536 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:35:26] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-08-13 13:35:26,602 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:35:26] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:35:26,604 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:35:26] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-13 13:35:31,585 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:35:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:35:36,583 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:35:36] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:35:41,584 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:35:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:35:46,578 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:35:46] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:35:51,587 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:35:51] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:35:56,591 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:35:56] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:36:02,596 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:36:02] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:36:07,592 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:36:07] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:36:12,596 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:36:12] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:36:17,596 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:36:17] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:36:22,600 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:36:22] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:36:27,593 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:36:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:36:32,594 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:36:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:36:37,595 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:36:37] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:36:42,589 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:36:42] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:36:47,604 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:36:47] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:36:52,597 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:36:52] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:36:57,594 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:36:57] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:37:28,599 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:37:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:37:32,601 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:37:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:38:06,739 - enhanced_main - INFO - 🔄 Trading Cycle #2
+2025-08-13 13:38:06,740 - enhanced_main - INFO - 💰 Balance: $1,000,000.00 | Equity: $991,287.39
+2025-08-13 13:38:06,741 - enhanced_main - INFO - 📊 Current P&L: $-8,712.61
+2025-08-13 13:38:06,742 - enhanced_main - INFO - 📈 Open Positions: 1
+2025-08-13 13:38:06,746 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3354.54
+2025-08-13 13:38:06,868 - enhanced_main - INFO - 📊 XAUUSD @ $3354.541: HOLD (Conf: 39.1%, ML: 1.0)
+2025-08-13 13:38:06,873 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119635.44
+2025-08-13 13:38:07,018 - enhanced_main - INFO - 📊 BTCUSD @ $119635.44: HOLD (Conf: 33.3%, ML: -2.0)
+2025-08-13 13:38:07,019 - enhanced_main - ERROR - 🚨 EMERGENCY STOP: Large drawdown detected!
+2025-08-13 13:38:28,595 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:38:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:38:32,579 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:38:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:39:28,602 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:39:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:39:32,602 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:39:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:40:26,268 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:40:26] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:40:26,601 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:40:26] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:40:30,875 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:40:30] "GET / HTTP/1.1" 200 -
+2025-08-13 13:40:31,193 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:40:31] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-13 13:40:31,214 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:40:31] "GET /_dash-layout HTTP/1.1" 200 -
+2025-08-13 13:40:31,217 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:40:31] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-08-13 13:40:31,303 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:40:31] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-08-13 13:40:31,333 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:40:31] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-08-13 13:40:31,411 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:40:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:40:31,412 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:40:31] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-13 13:40:36,406 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:40:36] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:40:41,402 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:40:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:40:46,597 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:40:46] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:40:51,597 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:40:51] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:40:56,593 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:40:56] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:41:02,600 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:41:02] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:41:07,599 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:41:07] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:41:12,612 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:41:12] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:41:17,599 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:41:17] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:41:22,681 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:41:22] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:41:27,579 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:41:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:41:32,585 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:41:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:41:37,594 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:41:37] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:41:42,600 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:41:42] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:42:28,591 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:42:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:42:32,583 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:42:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:43:07,026 - enhanced_main - INFO - 🔄 Trading Cycle #3
+2025-08-13 13:43:07,029 - enhanced_main - INFO - 💰 Balance: $1,000,000.00 | Equity: $984,441.46
+2025-08-13 13:43:07,030 - enhanced_main - INFO - 📊 Current P&L: $-15,558.54
+2025-08-13 13:43:07,032 - enhanced_main - INFO - 📈 Open Positions: 1
+2025-08-13 13:43:07,038 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3353.80
+2025-08-13 13:43:07,190 - enhanced_main - INFO - 📊 XAUUSD @ $3353.803: HOLD (Conf: 38.0%, ML: 1.0)
+2025-08-13 13:43:07,194 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119763.51
+2025-08-13 13:43:07,340 - enhanced_main - INFO - 📊 BTCUSD @ $119763.51: HOLD (Conf: 40.4%, ML: -2.0)
+2025-08-13 13:43:07,342 - enhanced_main - ERROR - 🚨 EMERGENCY STOP: Large drawdown detected!
+2025-08-13 13:43:28,601 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:43:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:43:32,601 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:43:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:44:28,613 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:44:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:44:32,598 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:44:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:45:28,597 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:45:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:45:32,601 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:45:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:46:28,596 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:46:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:46:32,598 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:46:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:47:28,553 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:47:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:47:32,560 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:47:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:48:07,346 - enhanced_main - INFO - 🔄 Trading Cycle #4
+2025-08-13 13:48:07,349 - enhanced_main - INFO - 💰 Balance: $1,000,000.00 | Equity: $998,858.98
+2025-08-13 13:48:07,350 - enhanced_main - INFO - 📊 Current P&L: $-1,141.02
+2025-08-13 13:48:07,351 - enhanced_main - INFO - 📈 Open Positions: 1
+2025-08-13 13:48:07,359 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3355.36
+2025-08-13 13:48:07,520 - enhanced_main - INFO - 📊 XAUUSD @ $3355.357: HOLD (Conf: 39.0%, ML: -1.0)
+2025-08-13 13:48:07,524 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119701.71
+2025-08-13 13:48:07,672 - enhanced_main - INFO - 📊 BTCUSD @ $119700.96: HOLD (Conf: 39.7%, ML: -2.0)
+2025-08-13 13:48:07,674 - enhanced_main - ERROR - 🚨 EMERGENCY STOP: Large drawdown detected!
+2025-08-13 13:48:28,593 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:48:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:48:32,588 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:48:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:49:28,595 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:49:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:49:32,597 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:49:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:50:28,601 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:50:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:50:32,592 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:50:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:51:28,603 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:51:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:51:32,600 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:51:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:52:28,558 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:52:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:52:32,563 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:52:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:53:07,678 - enhanced_main - INFO - 🔄 Trading Cycle #5
+2025-08-13 13:53:07,679 - enhanced_main - INFO - 💰 Balance: $1,000,000.00 | Equity: $988,766.04
+2025-08-13 13:53:07,680 - enhanced_main - INFO - 📊 Current P&L: $-11,233.96
+2025-08-13 13:53:07,681 - enhanced_main - INFO - 📈 Open Positions: 1
+2025-08-13 13:53:07,685 - data.data_collector - INFO - 📊 LIVE XAUUSD: $3354.27
+2025-08-13 13:53:07,844 - enhanced_main - INFO - 📊 XAUUSD @ $3354.247: HOLD (Conf: 38.5%, ML: 1.0)
+2025-08-13 13:53:07,851 - data.data_collector - INFO - 📊 LIVE BTCUSD: $119833.64
+2025-08-13 13:53:07,995 - enhanced_main - INFO - 📊 BTCUSD @ $119833.64: HOLD (Conf: 37.2%, ML: -2.0)
+2025-08-13 13:53:07,997 - enhanced_main - ERROR - 🚨 EMERGENCY STOP: Large drawdown detected!
+2025-08-13 13:53:28,589 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:53:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:53:32,593 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:53:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:54:28,603 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:54:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 13:54:32,560 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:54:32] "POST /_dash-update-component HTTP/1.1" 200 -
