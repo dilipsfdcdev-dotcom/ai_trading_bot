@@ -1,0 +1,149 @@
+2025-08-13 14:34:07,203 - data.data_collector - INFO - ✅ MT5 Connected
+2025-08-13 14:34:07,204 - ai.signal_generator - INFO - ✅ OpenAI API initialized
+2025-08-13 14:34:07,691 - ai.signal_generator - INFO - ✅ Anthropic API initialized
+2025-08-13 14:34:07,705 - ai_main - INFO - 🤖 AI-Enhanced Trading Bot initialized successfully
+2025-08-13 14:34:07,705 - ai_main - INFO - ✅ OpenAI integration available
+2025-08-13 14:34:07,705 - ai_main - INFO - ✅ Anthropic Claude integration available
+2025-08-13 14:34:07,706 - ai_main - INFO - 🚀 Starting AI-Enhanced Trading Bot...
+2025-08-13 14:34:07,708 - ai_main - INFO - 🚀 AI TradingView Dashboard started at http://127.0.0.1:8051
+2025-08-13 14:34:07,708 - ai_main - INFO - 📊 AI ANALYSIS MODE - Dashboard and signals only
+2025-08-13 14:34:07,708 - ai_main - INFO - 🤖 OpenAI GPT-4 analysis ACTIVE
+2025-08-13 14:34:07,709 - ai_main - INFO - 🤖 Anthropic Claude analysis ACTIVE
+2025-08-13 14:34:07,709 - dashboard.tradingview_dashboard - ERROR - Dashboard error: app.run_server has been replaced by app.run
+2025-08-13 14:34:07,709 - ai_main - INFO - ✅ MT5 Connected - Using LIVE market data
+2025-08-13 14:34:07,709 - ai_main - INFO - 🧠 Training ML models...
+2025-08-13 14:34:07,911 - ai_main - INFO - ✅ ML Model trained for XAUUSD with 1000 samples
+2025-08-13 14:34:08,109 - ai_main - INFO - ✅ ML Model trained for BTCUSD with 1000 samples
+2025-08-13 14:34:08,109 - ai_main - INFO - 🔄 Starting AI analysis cycle...
+2025-08-13 14:34:08,109 - ai_main - INFO - 🔄 AI Trading Cycle #1
+2025-08-13 14:34:08,138 - ai.signal_generator - ERROR - OpenAI API error: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-08-13 14:34:08,138 - dashboard.tradingview_dashboard - INFO - 🤖 AI Signal: Advanced Technical Analysis says HOLD XAUUSD (60.0%)
+2025-08-13 14:34:08,138 - ai_main - INFO - 🤖 XAUUSD AI Analysis:
+2025-08-13 14:34:08,138 - ai_main - INFO -    • Advanced Technical Analysis: HOLD (60.0% confidence)
+2025-08-13 14:34:08,138 - ai_main - INFO -    • ML Prediction: -1.0 (39.9%)
+2025-08-13 14:34:08,139 - ai_main - INFO -    • Final Signal: HOLD (60.0%)
+2025-08-13 14:34:08,139 - ai_main - INFO -    • AI Reasoning: Technical Analysis: RSI approaching overbought, MACD bullish...
+2025-08-13 14:34:08,180 - ai.signal_generator - ERROR - OpenAI API error: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-08-13 14:34:08,180 - dashboard.tradingview_dashboard - INFO - 🤖 AI Signal: Advanced Technical Analysis says SELL BTCUSD (75.0%)
+2025-08-13 14:34:08,180 - ai_main - INFO - 🤖 BTCUSD AI Analysis:
+2025-08-13 14:34:08,181 - ai_main - INFO -    • Advanced Technical Analysis: SELL (75.0% confidence)
+2025-08-13 14:34:08,181 - ai_main - INFO -    • ML Prediction: 0.0 (34.9%)
+2025-08-13 14:34:08,181 - ai_main - INFO -    • Final Signal: SELL (75.0%)
+2025-08-13 14:34:08,181 - ai_main - INFO -    • AI Reasoning: Technical Analysis: RSI overbought, MACD bullish...
+2025-08-13 14:34:08,182 - ai_main - INFO - 🤖 STRONG AI SIGNAL: Advanced Technical Analysis recommends SELL BTCUSD
+2025-08-13 14:34:38,188 - ai_main - INFO - 🔄 AI Trading Cycle #2
+2025-08-13 14:34:38,312 - ai.signal_generator - ERROR - OpenAI API error: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-08-13 14:34:38,312 - dashboard.tradingview_dashboard - INFO - 🤖 AI Signal: Advanced Technical Analysis says HOLD XAUUSD (60.0%)
+2025-08-13 14:34:38,313 - ai_main - INFO - 🤖 XAUUSD AI Analysis:
+2025-08-13 14:34:38,313 - ai_main - INFO -    • Advanced Technical Analysis: HOLD (60.0% confidence)
+2025-08-13 14:34:38,314 - ai_main - INFO -    • ML Prediction: -1.0 (49.6%)
+2025-08-13 14:34:38,314 - ai_main - INFO -    • Final Signal: HOLD (60.0%)
+2025-08-13 14:34:38,314 - ai_main - INFO -    • AI Reasoning: Technical Analysis: RSI approaching overbought, MACD bullish, High volume confirmation...
+2025-08-13 14:34:38,416 - ai.signal_generator - ERROR - OpenAI API error: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-08-13 14:34:38,417 - dashboard.tradingview_dashboard - INFO - 🤖 AI Signal: Advanced Technical Analysis says SELL BTCUSD (75.0%)
+2025-08-13 14:34:38,417 - ai_main - INFO - 🤖 BTCUSD AI Analysis:
+2025-08-13 14:34:38,417 - ai_main - INFO -    • Advanced Technical Analysis: SELL (75.0% confidence)
+2025-08-13 14:34:38,418 - ai_main - INFO -    • ML Prediction: 1.0 (26.1%)
+2025-08-13 14:34:38,419 - ai_main - INFO -    • Final Signal: SELL (75.0%)
+2025-08-13 14:34:38,419 - ai_main - INFO -    • AI Reasoning: Technical Analysis: RSI overbought, MACD bullish, High volume confirmation...
+2025-08-13 14:34:38,420 - ai_main - INFO - 🤖 STRONG AI SIGNAL: Advanced Technical Analysis recommends SELL BTCUSD
+2025-08-13 14:35:08,431 - ai_main - INFO - 🔄 AI Trading Cycle #3
+2025-08-13 14:35:08,475 - ai.signal_generator - ERROR - OpenAI API error: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-08-13 14:35:08,475 - dashboard.tradingview_dashboard - INFO - 🤖 AI Signal: Advanced Technical Analysis says HOLD XAUUSD (60.0%)
+2025-08-13 14:35:08,475 - ai_main - INFO - 🤖 XAUUSD AI Analysis:
+2025-08-13 14:35:08,476 - ai_main - INFO -    • Advanced Technical Analysis: HOLD (60.0% confidence)
+2025-08-13 14:35:08,476 - ai_main - INFO -    • ML Prediction: -1.0 (40.4%)
+2025-08-13 14:35:08,476 - ai_main - INFO -    • Final Signal: HOLD (60.0%)
+2025-08-13 14:35:08,476 - ai_main - INFO -    • AI Reasoning: Technical Analysis: RSI approaching overbought, MACD bullish, High volume confirmation...
+2025-08-13 14:35:08,507 - ai.signal_generator - ERROR - OpenAI API error: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-08-13 14:35:08,508 - dashboard.tradingview_dashboard - INFO - 🤖 AI Signal: Advanced Technical Analysis says SELL BTCUSD (75.0%)
+2025-08-13 14:35:08,508 - ai_main - INFO - 🤖 BTCUSD AI Analysis:
+2025-08-13 14:35:08,508 - ai_main - INFO -    • Advanced Technical Analysis: SELL (75.0% confidence)
+2025-08-13 14:35:08,509 - ai_main - INFO -    • ML Prediction: 2.0 (26.2%)
+2025-08-13 14:35:08,509 - ai_main - INFO -    • Final Signal: SELL (75.0%)
+2025-08-13 14:35:08,509 - ai_main - INFO -    • AI Reasoning: Technical Analysis: RSI overbought, MACD bullish, High volume confirmation...
+2025-08-13 14:35:08,509 - ai_main - INFO - 🤖 STRONG AI SIGNAL: Advanced Technical Analysis recommends SELL BTCUSD
+2025-08-13 14:35:38,516 - ai_main - INFO - 🔄 AI Trading Cycle #4
+2025-08-13 14:35:38,546 - ai.signal_generator - ERROR - OpenAI API error: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-08-13 14:35:38,547 - dashboard.tradingview_dashboard - INFO - 🤖 AI Signal: Advanced Technical Analysis says HOLD XAUUSD (60.0%)
+2025-08-13 14:35:38,547 - ai_main - INFO - 🤖 XAUUSD AI Analysis:
+2025-08-13 14:35:38,547 - ai_main - INFO -    • Advanced Technical Analysis: HOLD (60.0% confidence)
+2025-08-13 14:35:38,547 - ai_main - INFO -    • ML Prediction: -1.0 (44.7%)
+2025-08-13 14:35:38,548 - ai_main - INFO -    • Final Signal: HOLD (60.0%)
+2025-08-13 14:35:38,548 - ai_main - INFO -    • AI Reasoning: Technical Analysis: RSI approaching overbought, MACD bullish, High volume confirmation...
+2025-08-13 14:35:38,578 - ai.signal_generator - ERROR - OpenAI API error: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-08-13 14:35:38,579 - dashboard.tradingview_dashboard - INFO - 🤖 AI Signal: Advanced Technical Analysis says SELL BTCUSD (75.0%)
+2025-08-13 14:35:38,579 - ai_main - INFO - 🤖 BTCUSD AI Analysis:
+2025-08-13 14:35:38,579 - ai_main - INFO -    • Advanced Technical Analysis: SELL (75.0% confidence)
+2025-08-13 14:35:38,579 - ai_main - INFO -    • ML Prediction: 1.0 (23.7%)
+2025-08-13 14:35:38,579 - ai_main - INFO -    • Final Signal: SELL (75.0%)
+2025-08-13 14:35:38,579 - ai_main - INFO -    • AI Reasoning: Technical Analysis: RSI overbought, MACD bullish, High volume confirmation...
+2025-08-13 14:35:38,580 - ai_main - INFO - 🤖 STRONG AI SIGNAL: Advanced Technical Analysis recommends SELL BTCUSD
+2025-08-13 14:36:08,586 - ai_main - INFO - 🔄 AI Trading Cycle #5
+2025-08-13 14:36:08,674 - ai.signal_generator - ERROR - OpenAI API error: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-08-13 14:36:08,675 - dashboard.tradingview_dashboard - INFO - 🤖 AI Signal: Advanced Technical Analysis says HOLD XAUUSD (60.0%)
+2025-08-13 14:36:08,675 - ai_main - INFO - 🤖 XAUUSD AI Analysis:
+2025-08-13 14:36:08,676 - ai_main - INFO -    • Advanced Technical Analysis: HOLD (60.0% confidence)
+2025-08-13 14:36:08,677 - ai_main - INFO -    • ML Prediction: -1.0 (37.8%)
+2025-08-13 14:36:08,677 - ai_main - INFO -    • Final Signal: HOLD (60.0%)
+2025-08-13 14:36:08,678 - ai_main - INFO -    • AI Reasoning: Technical Analysis: RSI approaching overbought, MACD bullish, High volume confirmation...
+2025-08-13 14:36:08,771 - ai.signal_generator - ERROR - OpenAI API error: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-08-13 14:36:08,771 - dashboard.tradingview_dashboard - INFO - 🤖 AI Signal: Advanced Technical Analysis says SELL BTCUSD (75.0%)
+2025-08-13 14:36:08,772 - ai_main - INFO - 🤖 BTCUSD AI Analysis:
+2025-08-13 14:36:08,772 - ai_main - INFO -    • Advanced Technical Analysis: SELL (75.0% confidence)
+2025-08-13 14:36:08,773 - ai_main - INFO -    • ML Prediction: 1.0 (23.7%)
+2025-08-13 14:36:08,773 - ai_main - INFO -    • Final Signal: SELL (75.0%)
+2025-08-13 14:36:08,774 - ai_main - INFO -    • AI Reasoning: Technical Analysis: RSI overbought, MACD bullish, High volume confirmation...
+2025-08-13 14:36:08,774 - ai_main - INFO - 🤖 STRONG AI SIGNAL: Advanced Technical Analysis recommends SELL BTCUSD
+2025-08-13 14:36:08,775 - ai.signal_generator - ERROR - Error getting market sentiment: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-08-13 14:36:08,776 - ai_main - INFO - 📊 Market Sentiment for XAUUSD: NEUTRAL
+2025-08-13 14:36:08,777 - ai.signal_generator - ERROR - Error getting market sentiment: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-08-13 14:36:08,777 - ai_main - INFO - 📊 Market Sentiment for BTCUSD: NEUTRAL
+2025-08-13 14:36:38,785 - ai_main - INFO - 🔄 AI Trading Cycle #6
+2025-08-13 14:36:38,820 - ai.signal_generator - ERROR - OpenAI API error: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-08-13 14:36:38,820 - dashboard.tradingview_dashboard - INFO - 🤖 AI Signal: Advanced Technical Analysis says HOLD XAUUSD (60.0%)
+2025-08-13 14:36:38,821 - ai_main - INFO - 🤖 XAUUSD AI Analysis:
+2025-08-13 14:36:38,821 - ai_main - INFO -    • Advanced Technical Analysis: HOLD (60.0% confidence)
+2025-08-13 14:36:38,821 - ai_main - INFO -    • ML Prediction: -1.0 (45.5%)
+2025-08-13 14:36:38,822 - ai_main - INFO -    • Final Signal: HOLD (60.0%)
+2025-08-13 14:36:38,822 - ai_main - INFO -    • AI Reasoning: Technical Analysis: RSI approaching overbought, MACD bullish, High volume confirmation...
+2025-08-13 14:36:38,854 - ai.signal_generator - ERROR - OpenAI API error: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-08-13 14:36:38,854 - dashboard.tradingview_dashboard - INFO - 🤖 AI Signal: Advanced Technical Analysis says SELL BTCUSD (75.0%)
+2025-08-13 14:36:38,854 - ai_main - INFO - 🤖 BTCUSD AI Analysis:
+2025-08-13 14:36:38,855 - ai_main - INFO -    • Advanced Technical Analysis: SELL (75.0% confidence)
+2025-08-13 14:36:38,855 - ai_main - INFO -    • ML Prediction: 1.0 (25.3%)
+2025-08-13 14:36:38,855 - ai_main - INFO -    • Final Signal: SELL (75.0%)
+2025-08-13 14:36:38,855 - ai_main - INFO -    • AI Reasoning: Technical Analysis: RSI overbought, MACD bullish, High volume confirmation...
+2025-08-13 14:36:38,856 - ai_main - INFO - 🤖 STRONG AI SIGNAL: Advanced Technical Analysis recommends SELL BTCUSD
+2025-08-13 14:37:08,858 - ai_main - INFO - 🔄 AI Trading Cycle #7
+2025-08-13 14:37:08,956 - ai.signal_generator - ERROR - OpenAI API error: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-08-13 14:37:08,956 - dashboard.tradingview_dashboard - INFO - 🤖 AI Signal: Advanced Technical Analysis says HOLD XAUUSD (60.0%)
+2025-08-13 14:37:08,957 - ai_main - INFO - 🤖 XAUUSD AI Analysis:
+2025-08-13 14:37:08,957 - ai_main - INFO -    • Advanced Technical Analysis: HOLD (60.0% confidence)
+2025-08-13 14:37:08,957 - ai_main - INFO -    • ML Prediction: -1.0 (40.8%)
+2025-08-13 14:37:08,957 - ai_main - INFO -    • Final Signal: HOLD (60.0%)
+2025-08-13 14:37:08,958 - ai_main - INFO -    • AI Reasoning: Technical Analysis: RSI approaching overbought, MACD bullish, High volume confirmation...
+2025-08-13 14:37:09,048 - ai.signal_generator - ERROR - OpenAI API error: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-08-13 14:37:09,049 - dashboard.tradingview_dashboard - INFO - 🤖 AI Signal: Advanced Technical Analysis says SELL BTCUSD (75.0%)
+2025-08-13 14:37:09,049 - ai_main - INFO - 🤖 BTCUSD AI Analysis:
+2025-08-13 14:37:09,050 - ai_main - INFO -    • Advanced Technical Analysis: SELL (75.0% confidence)
+2025-08-13 14:37:09,050 - ai_main - INFO -    • ML Prediction: 2.0 (25.0%)
+2025-08-13 14:37:09,050 - ai_main - INFO -    • Final Signal: SELL (75.0%)
+2025-08-13 14:37:09,051 - ai_main - INFO -    • AI Reasoning: Technical Analysis: RSI overbought, MACD bullish, High volume confirmation...
+2025-08-13 14:37:09,051 - ai_main - INFO - 🤖 STRONG AI SIGNAL: Advanced Technical Analysis recommends SELL BTCUSD
+2025-08-13 14:37:39,052 - ai_main - INFO - 🔄 AI Trading Cycle #8
+2025-08-13 14:37:39,139 - ai.signal_generator - ERROR - OpenAI API error: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-08-13 14:37:39,140 - dashboard.tradingview_dashboard - INFO - 🤖 AI Signal: Advanced Technical Analysis says HOLD XAUUSD (60.0%)
+2025-08-13 14:37:39,140 - ai_main - INFO - 🤖 XAUUSD AI Analysis:
+2025-08-13 14:37:39,140 - ai_main - INFO -    • Advanced Technical Analysis: HOLD (60.0% confidence)
+2025-08-13 14:37:39,141 - ai_main - INFO -    • ML Prediction: -1.0 (42.7%)
+2025-08-13 14:37:39,141 - ai_main - INFO -    • Final Signal: HOLD (60.0%)
+2025-08-13 14:37:39,141 - ai_main - INFO -    • AI Reasoning: Technical Analysis: RSI approaching overbought, MACD bullish, High volume confirmation...
+2025-08-13 14:37:39,233 - ai.signal_generator - ERROR - OpenAI API error: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-08-13 14:37:39,234 - dashboard.tradingview_dashboard - INFO - 🤖 AI Signal: Advanced Technical Analysis says SELL BTCUSD (75.0%)
+2025-08-13 14:37:39,235 - ai_main - INFO - 🤖 BTCUSD AI Analysis:
+2025-08-13 14:37:39,235 - ai_main - INFO -    • Advanced Technical Analysis: SELL (75.0% confidence)
+2025-08-13 14:37:39,236 - ai_main - INFO -    • ML Prediction: 2.0 (26.0%)
+2025-08-13 14:37:39,238 - ai_main - INFO -    • Final Signal: SELL (75.0%)
+2025-08-13 14:37:39,238 - ai_main - INFO -    • AI Reasoning: Technical Analysis: RSI overbought, MACD bullish...
+2025-08-13 14:37:39,239 - ai_main - INFO - 🤖 STRONG AI SIGNAL: Advanced Technical Analysis recommends SELL BTCUSD
