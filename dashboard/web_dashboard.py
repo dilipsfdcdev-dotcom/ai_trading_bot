@@ -25,7 +25,7 @@ class TradingDashboard:
         
         # Sample price data with realistic values
         price_data = []
-        base_price = 3350  # Current XAUUSD price area
+        base_price = 2650  # Current XAUUSD price area
         for i, date in enumerate(dates):
             price = base_price + np.random.normal(0, 10) + np.sin(i/24) * 20
             price_data.append({
@@ -240,10 +240,10 @@ class TradingDashboard:
                 daily_pnl = html.Span(f"{pnl_sign}${profit:,.2f}", style={'color': pnl_color})
                 
                 # Update sample data with real equity
-                equity_col = self.sample_data['performance'].columns.get_loc('equity')
-                self.sample_data['performance'].iloc[-1, equity_col] = real_data['equity']
+                if len(self.sample_data['performance']) > 0:
+                    self.sample_data['performance'].iloc[-1, self.sample_data['performance'].columns.get_loc('equity')] = real_data['equity']
             else:
-                balance = "$1,000,000.00"
+                balance = "$100,000.00"
                 daily_pnl = html.Span("+$0.00", style={'color': '#27ae60'})
             
             positions = "0"  # Will be updated when position tracking is added
@@ -324,6 +324,6 @@ class TradingDashboard:
         print(f"🚀 Dashboard starting at http://{host}:{port}")
         print("📊 You can view charts, signals, and metrics here!")
         try:
-            self.app.run(debug=debug, host=host, port=port, use_reloader=False)
+            self.app.run_server(debug=debug, host=host, port=port, use_reloader=False)
         except Exception as e:
             print(f"Dashboard error: {e}")

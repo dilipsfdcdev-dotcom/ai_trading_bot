@@ -4,7 +4,7 @@ numpy>=1.21.0
 scikit-learn>=1.0.0
 
 # Technical Analysis
-talib>=0.4.25
+ta>=0.10.2
 
 # MT5 Trading
 MetaTrader5>=5.0.37
@@ -16,9 +16,12 @@ plotly>=5.15.0
 # Utilities
 python-dotenv>=1.0.0
 
+# Web framework
+Flask>=2.3.0
+
+# Additional useful packages
+requests>=2.28.0
+
 # Optional: Advanced ML (uncomment if needed)
 # tensorflow>=2.13.0
 # torch>=2.0.0
-
-# Optional: Advanced TA (uncomment if needed)
-# ta>=0.10.2
