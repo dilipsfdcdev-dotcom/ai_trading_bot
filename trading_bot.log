@@ -1031,3 +1031,33 @@
 2025-08-13 13:53:32,593 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:53:32] "POST /_dash-update-component HTTP/1.1" 200 -
 2025-08-13 13:54:28,603 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:54:28] "POST /_dash-update-component HTTP/1.1" 200 -
 2025-08-13 13:54:32,560 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 13:54:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-13 14:58:11,405 - data.data_collector - INFO - ✅ MT5 Connected
+2025-08-13 14:58:11,616 - __main__ - INFO - 🤖 Enhanced AI Trading Bot initialized successfully
+2025-08-13 14:58:11,616 - __main__ - INFO - 🚀 Starting Enhanced AI Trading Bot...
+2025-08-13 14:58:11,618 - __main__ - INFO - 📊 Dashboard started at http://127.0.0.1:8050
+2025-08-13 14:58:11,618 - __main__ - INFO - 📊 DEMO MODE - Dashboard only, no real trades
+2025-08-13 14:58:11,619 - __main__ - INFO - ✅ MT5 Connected - Using LIVE data
+2025-08-13 14:58:11,620 - __main__ - INFO - 🧠 Training ML models...
+2025-08-13 14:58:11,831 - __main__ - INFO - ✅ Model trained for XAUUSD with 1000 samples
+2025-08-13 14:58:12,035 - __main__ - INFO - ✅ Model trained for BTCUSD with 1000 samples
+2025-08-13 14:58:12,036 - __main__ - INFO - ============================================================
+2025-08-13 14:58:12,036 - __main__ - INFO - 📈 TRADING SUMMARY
+2025-08-13 14:58:12,036 - __main__ - INFO - ============================================================
+2025-08-13 14:58:12,036 - __main__ - INFO - 💰 Account Balance: $1,046,655.36
+2025-08-13 14:58:12,036 - __main__ - INFO - 📊 Current Equity: $1,058,201.18
+2025-08-13 14:58:12,036 - __main__ - INFO - 📈 Unrealized P&L: $11,545.82
+2025-08-13 14:58:12,036 - __main__ - INFO - 🎯 Open Positions: 1
+2025-08-13 14:58:12,037 - __main__ - INFO - 📊 Trades Today: 0
+2025-08-13 14:58:12,037 - __main__ - INFO - 
+🔍 Open Positions:
+2025-08-13 14:58:12,037 - __main__ - INFO - 🛑 Stopping Enhanced AI Trading Bot...
+2025-08-13 14:58:12,037 - __main__ - INFO - ============================================================
+2025-08-13 14:58:12,037 - __main__ - INFO - 📈 TRADING SUMMARY
+2025-08-13 14:58:12,037 - __main__ - INFO - ============================================================
+2025-08-13 14:58:12,037 - __main__ - INFO - 💰 Account Balance: $1,046,655.36
+2025-08-13 14:58:12,037 - __main__ - INFO - 📊 Current Equity: $1,058,201.18
+2025-08-13 14:58:12,037 - __main__ - INFO - 📈 Unrealized P&L: $11,545.82
+2025-08-13 14:58:12,038 - __main__ - INFO - 🎯 Open Positions: 1
+2025-08-13 14:58:12,038 - __main__ - INFO - 📊 Trades Today: 0
+2025-08-13 14:58:12,038 - __main__ - INFO - 
+🔍 Open Positions:
