@@ -324,6 +324,6 @@ class TradingDashboard:
         print(f"🚀 Dashboard starting at http://{host}:{port}")
         print("📊 You can view charts, signals, and metrics here!")
         try:
-            self.app.run_server(debug=debug, host=host, port=port, use_reloader=False)
+            self.app.run(debug=debug, host=host, port=port, use_reloader=False, threaded=True)
         except Exception as e:
             print(f"Dashboard error: {e}")

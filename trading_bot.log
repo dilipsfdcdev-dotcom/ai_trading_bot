@@ -1061,3 +1061,113 @@
 2025-08-13 14:58:12,038 - __main__ - INFO - 📊 Trades Today: 0
 2025-08-13 14:58:12,038 - __main__ - INFO - 
 🔍 Open Positions:
+2025-08-17 14:35:35,518 - data.data_collector - INFO - ✅ MT5 Connected
+2025-08-17 14:35:35,738 - __main__ - INFO - 🤖 Enhanced AI Trading Bot initialized successfully
+2025-08-17 14:35:35,739 - __main__ - INFO - 🚀 Starting Enhanced AI Trading Bot...
+2025-08-17 14:35:35,740 - __main__ - INFO - 📊 Dashboard started at http://127.0.0.1:8050
+2025-08-17 14:35:35,740 - __main__ - INFO - 📊 DEMO MODE - Dashboard only, no real trades
+2025-08-17 14:35:35,741 - __main__ - INFO - ✅ MT5 Connected - Using LIVE data
+2025-08-17 14:35:35,741 - __main__ - INFO - 🧠 Training ML models...
+2025-08-17 14:35:35,965 - __main__ - INFO - ✅ Model trained for XAUUSD with 1000 samples
+2025-08-17 14:35:36,178 - __main__ - INFO - ✅ Model trained for BTCUSD with 1000 samples
+2025-08-17 14:35:36,179 - __main__ - INFO - ============================================================
+2025-08-17 14:35:36,179 - __main__ - INFO - 📈 TRADING SUMMARY
+2025-08-17 14:35:36,179 - __main__ - INFO - ============================================================
+2025-08-17 14:35:36,179 - __main__ - INFO - 💰 Account Balance: $1,219,942.69
+2025-08-17 14:35:36,180 - __main__ - INFO - 📊 Current Equity: $1,219,942.69
+2025-08-17 14:35:36,180 - __main__ - INFO - 📈 Unrealized P&L: $0.00
+2025-08-17 14:35:36,180 - __main__ - INFO - 🎯 Open Positions: 0
+2025-08-17 14:35:36,181 - __main__ - INFO - 📊 Trades Today: 0
+2025-08-17 14:35:36,181 - __main__ - INFO - ============================================================
+2025-08-17 14:35:36,181 - __main__ - INFO - 🔄 Trading Cycle #1
+2025-08-17 14:35:36,181 - __main__ - INFO - 💰 Balance: $1,219,942.69 | Equity: $1,219,942.69
+2025-08-17 14:35:36,209 - __main__ - INFO - 📊 XAUUSD @ $3335.237: HOLD (Conf: 44.5%, ML: 0.0)
+2025-08-17 14:35:36,240 - __main__ - INFO - 📊 BTCUSD @ $118402.32: HOLD (Conf: 39.3%, ML: 0.0)
+2025-08-17 14:36:04,514 - data.data_collector - INFO - ✅ MT5 Connected
+2025-08-17 14:36:04,536 - enhanced_main - INFO - 🤖 Enhanced AI Trading Bot initialized successfully
+2025-08-17 14:36:04,536 - enhanced_main - INFO - 🚀 Starting Enhanced AI Trading Bot...
+2025-08-17 14:36:04,537 - enhanced_main - INFO - 📊 Dashboard started at http://127.0.0.1:8050
+2025-08-17 14:36:04,537 - enhanced_main - INFO - 📊 DEMO MODE - Dashboard only, no real trades
+2025-08-17 14:36:04,538 - enhanced_main - INFO - ✅ MT5 Connected - Using LIVE data
+2025-08-17 14:36:04,538 - enhanced_main - INFO - 🧠 Training ML models...
+2025-08-17 14:36:04,739 - enhanced_main - INFO - ✅ Model trained for XAUUSD with 1000 samples
+2025-08-17 14:36:04,929 - enhanced_main - INFO - ✅ Model trained for BTCUSD with 1000 samples
+2025-08-17 14:36:04,929 - enhanced_main - INFO - ============================================================
+2025-08-17 14:36:04,929 - enhanced_main - INFO - 📈 TRADING SUMMARY
+2025-08-17 14:36:04,930 - enhanced_main - INFO - ============================================================
+2025-08-17 14:36:04,930 - enhanced_main - INFO - 💰 Account Balance: $1,219,942.69
+2025-08-17 14:36:04,930 - enhanced_main - INFO - 📊 Current Equity: $1,219,942.69
+2025-08-17 14:36:04,930 - enhanced_main - INFO - 📈 Unrealized P&L: $0.00
+2025-08-17 14:36:04,930 - enhanced_main - INFO - 🎯 Open Positions: 0
+2025-08-17 14:36:04,930 - enhanced_main - INFO - 📊 Trades Today: 0
+2025-08-17 14:36:04,930 - enhanced_main - INFO - ============================================================
+2025-08-17 14:36:04,930 - enhanced_main - INFO - 🔄 Trading Cycle #1
+2025-08-17 14:36:04,931 - enhanced_main - INFO - 💰 Balance: $1,219,942.69 | Equity: $1,219,942.69
+2025-08-17 14:36:04,961 - enhanced_main - INFO - 📊 XAUUSD @ $3335.237: HOLD (Conf: 44.5%, ML: 0.0)
+2025-08-17 14:36:04,992 - enhanced_main - INFO - 📊 BTCUSD @ $118365.87: HOLD (Conf: 38.5%, ML: 0.0)
+2025-08-17 14:41:04,994 - enhanced_main - INFO - 🔄 Trading Cycle #2
+2025-08-17 14:41:04,997 - enhanced_main - INFO - 💰 Balance: $1,219,942.69 | Equity: $1,219,942.69
+2025-08-17 14:41:05,084 - enhanced_main - INFO - 📊 XAUUSD @ $3335.237: HOLD (Conf: 44.5%, ML: 0.0)
+2025-08-17 14:41:05,165 - enhanced_main - INFO - 📊 BTCUSD @ $118338.41: HOLD (Conf: 35.2%, ML: -1.0)
+2025-08-17 14:45:35,947 - data.data_collector - INFO - ✅ MT5 Connected
+2025-08-17 14:45:35,968 - enhanced_main - INFO - 🤖 Enhanced AI Trading Bot initialized successfully
+2025-08-17 14:45:35,969 - enhanced_main - INFO - 🚀 Starting Enhanced AI Trading Bot...
+2025-08-17 14:45:35,970 - enhanced_main - INFO - 📊 Dashboard started at http://127.0.0.1:8050
+2025-08-17 14:45:35,971 - dash.dash - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-08-17 14:45:35,971 - enhanced_main - INFO - 📊 DEMO MODE - Dashboard only, no real trades
+2025-08-17 14:45:35,972 - enhanced_main - INFO - ✅ MT5 Connected - Using LIVE data
+2025-08-17 14:45:35,972 - enhanced_main - INFO - 🧠 Training ML models...
+2025-08-17 14:45:35,994 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8050
+2025-08-17 14:45:35,995 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-17 14:45:36,178 - enhanced_main - INFO - ✅ Model trained for XAUUSD with 1000 samples
+2025-08-17 14:45:36,372 - enhanced_main - INFO - ✅ Model trained for BTCUSD with 1000 samples
+2025-08-17 14:45:36,373 - enhanced_main - INFO - ============================================================
+2025-08-17 14:45:36,373 - enhanced_main - INFO - 📈 TRADING SUMMARY
+2025-08-17 14:45:36,374 - enhanced_main - INFO - ============================================================
+2025-08-17 14:45:36,374 - enhanced_main - INFO - 💰 Account Balance: $1,219,942.69
+2025-08-17 14:45:36,374 - enhanced_main - INFO - 📊 Current Equity: $1,219,942.69
+2025-08-17 14:45:36,375 - enhanced_main - INFO - 📈 Unrealized P&L: $0.00
+2025-08-17 14:45:36,375 - enhanced_main - INFO - 🎯 Open Positions: 0
+2025-08-17 14:45:36,376 - enhanced_main - INFO - 📊 Trades Today: 0
+2025-08-17 14:45:36,376 - enhanced_main - INFO - ============================================================
+2025-08-17 14:45:36,376 - enhanced_main - INFO - 🔄 Trading Cycle #1
+2025-08-17 14:45:36,376 - enhanced_main - INFO - 💰 Balance: $1,219,942.69 | Equity: $1,219,942.69
+2025-08-17 14:45:36,405 - enhanced_main - INFO - 📊 XAUUSD @ $3335.237: HOLD (Conf: 44.5%, ML: 0.0)
+2025-08-17 14:45:36,433 - enhanced_main - INFO - 📊 BTCUSD @ $118337.95: HOLD (Conf: 40.1%, ML: 0.0)
+2025-08-17 14:45:36,588 - dashboard.web_dashboard - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\dash.py", line 1388, in _prepare_callback
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'status.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\dash.py", line 1489, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\dash.py", line 1422, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'status.children'."
+2025-08-17 14:45:36,591 - werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 14:45:36] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-08-17 14:45:39,085 - werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 14:45:39] "GET / HTTP/1.1" 200 -
+2025-08-17 14:45:39,687 - werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 14:45:39] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-08-17 14:45:39,706 - werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 14:45:39] "GET /_dash-layout HTTP/1.1" 200 -
+2025-08-17 14:45:39,707 - werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 14:45:39] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-08-17 14:45:39,890 - werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 14:45:39] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-08-17 14:45:39,902 - werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 14:45:39] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-08-17 14:45:40,135 - werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 14:45:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-17 14:45:44,949 - werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 14:45:44] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-17 14:45:49,957 - werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 14:45:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-17 14:45:54,957 - werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 14:45:54] "POST /_dash-update-component HTTP/1.1" 200 -

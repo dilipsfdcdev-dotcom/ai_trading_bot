@@ -311,7 +311,11 @@ class EnhancedAITradingBot:
         """Start the dashboard in a separate thread"""
         def run_dashboard():
             try:
-                self.dashboard.run_server(debug=False)
+                try:
+                    self.dashboard.run_server(debug=False, host="127.0.0.1", port=8050)
+                except Exception as e:
+                    self.logger.error(f"Dashboard error: {e}")
+                print("⚠️  Dashboard failed to start, but bot will continue running")
             except Exception as e:
                 self.logger.error(f"Dashboard error: {e}")
         
