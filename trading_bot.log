@@ -1176,3 +1176,57 @@ KeyError: "Callback function not found for output 'status.children'."
 2025-08-17 14:46:09,960 - werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 14:46:09] "POST /_dash-update-component HTTP/1.1" 200 -
 2025-08-17 14:46:14,956 - werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 14:46:14] "POST /_dash-update-component HTTP/1.1" 200 -
 2025-08-17 14:46:21,602 - werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 14:46:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-17 14:46:26,609 - werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 14:46:26] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-17 14:46:31,604 - werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 14:46:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-17 14:46:36,628 - werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 14:46:36] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-08-17 14:46:37,580 - dashboard.web_dashboard - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\dash.py", line 1388, in _prepare_callback
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'status.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\dash.py", line 1489, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\dash.py", line 1422, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'status.children'."
+2025-08-17 14:46:37,582 - werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 14:46:37] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-08-17 14:46:41,595 - dashboard.web_dashboard - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\dash.py", line 1388, in _prepare_callback
+    cb = self.callback_map[output]
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'status.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\dash.py", line 1489, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\dkumar\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\dash.py", line 1422, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'status.children'."
+2025-08-17 14:46:41,611 - werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 14:46:41] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-08-17 14:46:41,621 - werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 14:46:41] "POST /_dash-update-component HTTP/1.1" 200 -
