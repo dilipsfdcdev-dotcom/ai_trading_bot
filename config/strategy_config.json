@@ -1,13 +1,9 @@
 {
   "trading_pairs": [
-    "EURUSD",
-    "GBPUSD",
-    "USDJPY",
-    "AUDUSD",
-    "USDCAD"
+    "XAUUSD"
   ],
-  "timeframes": ["M5", "M15", "H1"],
-  "primary_timeframe": "M15",
+  "timeframes": ["M1", "M3", "M5"],
+  "primary_timeframe": "M5",
   "max_positions": 3,
   "risk_per_trade": 0.02,
   "max_daily_loss": 0.05,
