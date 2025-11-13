@@ -57,7 +57,12 @@ ai_trading_bot/
 
 **That's it! Just run ONE command:**
 
-**On Windows:**
+**On Windows (PowerShell):**
+```bash
+.\start.bat
+```
+
+**On Windows (Command Prompt):**
 ```bash
 start.bat
 ```
@@ -178,7 +183,9 @@ Real-time log showing:
 ## 🔧 Troubleshooting
 
 ### Script won't run?
-- **Windows**: Right-click `start.bat` → Run as Administrator
+- **Windows PowerShell**: Use `.\start.bat` (with the dot-slash)
+- **Windows Command Prompt**: Use `start.bat` OR just double-click the file
+- **Windows Admin**: Right-click `start.bat` → Run as Administrator
 - **Linux/Mac**: Make sure it's executable: `chmod +x start.sh`
 
 ### Port already in use?
