@@ -12,25 +12,33 @@ Install these three things:
 
 ### On Windows:
 
-**Option 1 - Double-click:**
+**Easiest - Double-click:**
 1. Double-click `start.bat` in File Explorer
 2. Wait for it to install dependencies (first time only)
 3. Done! 🎉
 
-**Option 2 - PowerShell:**
+**PowerShell:**
 1. Open PowerShell in this folder
 2. Run: `.\start.bat`
 3. Done! 🎉
 
-**Option 3 - Command Prompt:**
+**Command Prompt:**
 1. Open Command Prompt in this folder
 2. Run: `start.bat`
 3. Done! 🎉
+
+**If you get errors, install dependencies first:**
+1. Run: `.\install.bat` (PowerShell) or `install.bat` (Command Prompt)
+2. Then run: `.\start.bat`
 
 ### On Mac/Linux:
 1. Open terminal in this folder
 2. Run: `./start.sh`
 3. Done! 🎉
+
+**If you get errors, install dependencies first:**
+1. Run: `./install.sh`
+2. Then run: `./start.sh`
 
 ## Step 3: Access Dashboard
 
