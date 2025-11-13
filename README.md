@@ -1,127 +1,113 @@
-# AI Trading Bot - Professional Automated Trading System
+# AI Trading Bot
 
-🤖 **World-class automated trading bot with MT5 integration, AI/LLM analysis, and real-time dashboard**
+Professional automated trading system with MT5 integration, AI-powered analysis, and real-time dashboard.
 
 ## Features
 
-### 🎯 Core Capabilities
-- **Fully Automated Trading**: 24/7 automated buy/sell execution via MT5
-- **AI-Powered Analysis**: Uses LLM (GPT-4/Claude) for intelligent market analysis
-- **Multi-Source Data**: Real-time market data, news, trends, and technical indicators
-- **Smart Risk Management**: Balanced approach - not too strict, takes good opportunities
-- **Real-time Dashboard**: Live statistics, charts, and decision transparency
+- **Fully Automated Trading**: 24/7 automated trading with MT5
+- **AI-Powered Analysis**: Uses GPT-4 or Claude for intelligent market analysis
+- **Multi-Source Data**: Technical indicators, news sentiment, and market trends
+- **Smart Risk Management**: Automatic position sizing, stop-loss, and daily limits
+- **Real-time Dashboard**: Live monitoring with full decision transparency
+- **Educational**: See exactly what the bot analyzes and why it makes each decision
 
-### 📊 Data Analysis
-- **Technical Indicators**: RSI, MACD, Bollinger Bands, Moving Averages, ATR, Stochastic
-- **Market News**: Real-time news from multiple sources with sentiment analysis
-- **Trend Analysis**: Multi-timeframe trend detection
-- **Volume Analysis**: Order flow and volume patterns
-- **AI Reasoning**: LLM-based market context understanding
-
-### 🔍 Decision Transparency
-The dashboard shows exactly what the bot checks before each trade:
-- Current market conditions
-- Technical indicator signals
-- News sentiment impact
-- AI reasoning and confidence score
-- Risk assessment
-- Historical performance context
-
-## Architecture
-
-```
-ai_trading_bot/
-├── backend/                    # Python FastAPI backend
-│   ├── mt5_connector/         # MT5 integration
-│   ├── ai_engine/             # LLM and AI analysis
-│   ├── data_sources/          # Market data, news, trends
-│   ├── strategy/              # Trading strategies
-│   ├── risk_management/       # Risk and position management
-│   └── api/                   # REST API and WebSocket
-├── frontend/                  # React/Next.js dashboard
-│   ├── components/            # UI components
-│   ├── pages/                 # Dashboard pages
-│   └── hooks/                 # Real-time data hooks
-├── config/                    # Configuration files
-└── data/                      # Historical data and logs
-```
-
-## 🚀 Super Simple Quick Start
+## Quick Start
 
 ### Prerequisites
-- Python 3.10+ - [Download](https://www.python.org/downloads/)
-- Node.js 18+ - [Download](https://nodejs.org/)
-- MetaTrader 5 - [Download](https://www.metatrader5.com/)
 
-### Installation & Start
+1. **Python 3.10+** - [Download](https://www.python.org/downloads/)
+2. **Node.js 18+** - [Download](https://nodejs.org/)
+3. **MetaTrader 5** - [Download](https://www.metatrader5.com/)
 
-**Option 1: One-Command Start (Recommended)**
+### Installation (3 Steps)
 
-Just run the start script - it installs dependencies automatically on first run:
+**Step 1: Install dependencies**
 
-**On Windows (PowerShell):**
+Windows:
 ```bash
-.\start.bat
+install.bat
 ```
 
-**On Windows (Command Prompt):**
+Linux/Mac:
+```bash
+chmod +x install.sh
+./install.sh
+```
+
+**Step 2: Configure environment**
+
+Create your `.env` file:
+```bash
+cd backend
+copy .env.example .env    # Windows
+# or
+cp .env.example .env      # Linux/Mac
+```
+
+Edit `backend/.env` with your credentials:
+- MT5 login, password, and server
+- OpenAI API key (get from [platform.openai.com](https://platform.openai.com/))
+- News API key (get from [newsapi.org](https://newsapi.org/))
+
+**See [SETUP.md](SETUP.md) for detailed .env configuration guide!**
+
+**Step 3: Start the bot**
+
+Windows:
 ```bash
 start.bat
 ```
 
-**On Linux/Mac:**
+Linux/Mac:
 ```bash
 ./start.sh
 ```
 
-**Option 2: Install Dependencies First**
+Access the dashboard at: **http://localhost:3000**
 
-If you prefer to install dependencies separately:
+## Need Help?
 
-**On Windows:**
-```bash
-.\install.bat
-.\start.bat
+**For detailed setup instructions, troubleshooting, and .env configuration:**
+
+📖 **Read the [Complete Setup Guide (SETUP.md)](SETUP.md)**
+
+The setup guide includes:
+- Step-by-step installation
+- Detailed .env file explanation (every variable explained!)
+- How to get API keys
+- MT5 configuration
+- Troubleshooting common issues
+- Safety recommendations
+
+## Configuration Files
+
+### backend/.env
+Main configuration file (you must create this!):
+- MT5 credentials
+- API keys (OpenAI, News API, etc.)
+- Risk management settings
+- Trading parameters
+
+**Example:**
+```env
+MT5_LOGIN=12345678
+MT5_PASSWORD=yourpassword
+MT5_SERVER=YourBroker-Demo
+OPENAI_API_KEY=sk-proj-...
+NEWS_API_KEY=...
+ENVIRONMENT=demo
+MAX_POSITIONS=1
+RISK_PER_TRADE=0.01
 ```
 
-**On Linux/Mac:**
-```bash
-./install.sh
-./start.sh
-```
+**See [SETUP.md](SETUP.md) for complete .env guide with all variables explained!**
 
-The scripts will automatically:
-- ✅ Install all dependencies (Python + Node.js)
-- ✅ Create environment files
-- ✅ Start both backend and frontend
-- ✅ Open in your browser
-
-**Access dashboard:** http://localhost:3000
-
-**Note:** First run takes 2-3 minutes to install dependencies. Subsequent runs start instantly!
-
-### Already Have .env Files?
-If you already configured your `.env` files, the scripts won't overwrite them. Everything is preserved!
-
-## Configuration
-
-### MT5 Setup
-Edit `config/mt5_config.json`:
-```json
-{
-  "login": "YOUR_MT5_LOGIN",
-  "password": "YOUR_MT5_PASSWORD",
-  "server": "YOUR_MT5_SERVER",
-  "path": "C:\\Program Files\\MetaTrader 5\\terminal64.exe"
-}
-```
-
-### Trading Strategy
-Edit `config/strategy_config.json`:
+### config/strategy_config.json
+Trading strategy configuration:
 ```json
 {
   "trading_pairs": ["EURUSD", "GBPUSD", "USDJPY"],
-  "timeframes": ["M5", "M15", "H1"],
+  "primary_timeframe": "M15",
   "max_positions": 3,
   "risk_per_trade": 0.02,
   "ai_confidence_threshold": 0.65
@@ -130,98 +116,207 @@ Edit `config/strategy_config.json`:
 
 ## How It Works
 
-### 1. Data Collection
-- Fetches real-time price data from MT5
-- Collects market news from multiple sources
-- Calculates technical indicators
-- Analyzes market trends
-
-### 2. AI Analysis
-- LLM analyzes market context and news sentiment
-- Combines technical signals with fundamental analysis
-- Generates trade recommendations with confidence scores
-- Explains reasoning in human-readable format
-
-### 3. Decision Making
-- Evaluates all signals (technical + AI + news)
-- Applies risk management rules
-- Checks market conditions
-- Makes go/no-go decision
-
-### 4. Execution
-- Opens positions via MT5
-- Sets stop-loss and take-profit
-- Monitors positions in real-time
-- Adjusts or closes based on conditions
-
-### 5. Dashboard Updates
-- Real-time WebSocket updates
-- Shows current analysis
-- Displays decision reasoning
-- Updates charts and statistics
-
-## Safety Features
-
-- **Position Sizing**: Automatic calculation based on account size
-- **Stop Loss**: Always set on every trade
-- **Max Drawdown**: Stops trading if drawdown exceeds limit
-- **Daily Loss Limit**: Stops for the day if limit hit
-- **Connection Monitoring**: Handles MT5 disconnections
-- **Error Recovery**: Automatic retry and fallback mechanisms
+1. **Data Collection**: Fetches real-time data from MT5, news sources, and market data APIs
+2. **Technical Analysis**: Calculates RSI, MACD, Bollinger Bands, and other indicators
+3. **AI Analysis**: LLM analyzes market context and generates recommendations
+4. **Risk Management**: Calculates position size and validates trade against risk rules
+5. **Execution**: Opens positions via MT5 with automatic stop-loss and take-profit
+6. **Monitoring**: Real-time dashboard shows all decisions and positions
 
 ## Dashboard Features
 
-### Live Statistics
-- Current P&L
-- Win rate
-- Active positions
-- Daily/Weekly/Monthly performance
-- Sharpe ratio
+- **Account Info**: Balance, equity, margin, profit/loss
+- **Open Positions**: Live trades with current P&L
+- **Market Analysis**: AI analysis for each trading pair with confidence scores
+- **Decision Log**: Real-time log showing bot's reasoning
+- **Risk Metrics**: Drawdown, daily P&L, position usage
+- **Trading Controls**: Start/stop automated trading
 
-### Decision Log
-Real-time log showing:
-- What the bot is analyzing
-- Current market conditions
-- Technical signals
-- AI reasoning
-- Final decision and confidence
+## Project Structure
 
-### Charts
-- Price charts with indicators
-- Equity curve
-- Win/loss distribution
-- Performance by pair
+```
+ai_trading_bot/
+├── backend/                   # Python FastAPI backend
+│   ├── .env                   # YOUR CONFIG (create this!)
+│   ├── .env.example           # Example config
+│   ├── requirements.txt       # Python dependencies
+│   ├── main.py                # Main application
+│   ├── mt5_connector/         # MT5 integration
+│   ├── ai_engine/             # AI/LLM analysis
+│   ├── data_sources/          # Market data & news
+│   ├── strategy/              # Trading strategies
+│   └── risk_management/       # Risk management
+├── frontend/                  # React/Next.js dashboard
+│   └── app/                   # Dashboard UI
+├── config/                    # Configuration files
+│   └── strategy_config.json   # Trading strategy config
+├── install.bat / install.sh   # Installation scripts
+├── start.bat / start.sh       # Startup scripts
+├── README.md                  # This file
+└── SETUP.md                   # Complete setup guide
+```
+
+## Common Issues
+
+### "ModuleNotFoundError: No module named 'fastapi'"
+**Solution**: Run the install script
+```bash
+# Windows
+install.bat
+
+# Linux/Mac
+./install.sh
+```
+
+### "MT5 connection failed"
+**Solution**:
+1. Make sure MT5 is running
+2. Check your credentials in `backend/.env`
+3. Enable algo trading in MT5: Tools → Options → Expert Advisors → Allow automated trading
+
+### "OpenAI API key invalid"
+**Solution**:
+1. Get your API key from [platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+2. Make sure you have credits: [platform.openai.com/account/billing](https://platform.openai.com/account/billing)
+3. Update `OPENAI_API_KEY` in `backend/.env`
+
+**For more troubleshooting, see [SETUP.md](SETUP.md)**
+
+## Safety & Warnings
+
+⚠️ **IMPORTANT:**
+- Always start with a **DEMO account**
+- Test thoroughly for at least 1 month before considering live trading
+- Trading involves substantial risk of loss
+- Never risk more than you can afford to lose
+- This is for educational purposes
+- Past performance does not guarantee future results
+
+### Recommended Settings for Testing
+```env
+ENVIRONMENT=demo
+MAX_POSITIONS=1
+RISK_PER_TRADE=0.01
+MAX_DAILY_LOSS=0.05
+AI_CONFIDENCE_THRESHOLD=0.70
+```
 
 ## API Keys Required
 
-1. **OpenAI API** (for GPT-4 analysis) or **Anthropic** (for Claude)
-2. **News API** (for market news)
-3. **Alpha Vantage** (backup market data)
+1. **OpenAI API** - [Get it here](https://platform.openai.com/api-keys)
+   - Required for AI analysis
+   - Free tier available with pay-as-you-go
 
-## 🔧 Troubleshooting
+2. **News API** - [Get it here](https://newsapi.org/)
+   - Required for market news
+   - Free tier: 100 requests/day
 
-### Script won't run?
-- **Windows PowerShell**: Use `.\start.bat` (with the dot-slash)
-- **Windows Command Prompt**: Use `start.bat` OR just double-click the file
-- **Windows Admin**: Right-click `start.bat` → Run as Administrator
-- **Linux/Mac**: Make sure it's executable: `chmod +x start.sh`
+3. **Alpha Vantage** - [Get it here](https://www.alphavantage.co/support/#api-key) (Optional)
+   - Backup market data
+   - Free tier available
 
-### Port already in use?
-- Check if something is running on port 3000 or 8000
-- Kill the process or change ports in configuration
+**See [SETUP.md](SETUP.md) for detailed instructions on getting API keys!**
 
-### Dependencies won't install?
-- Make sure Python and Node.js are in your PATH
-- Try running: `pip3 install -r backend/requirements.txt` manually
-- Try running: `cd frontend && npm install` manually
+## Technical Stack
 
-### Still need help?
-Check the detailed [SETUP_GUIDE.md](SETUP_GUIDE.md) or documentation in `/docs` folder.
+- **Backend**: Python 3.10+, FastAPI, MetaTrader5
+- **Frontend**: React, Next.js, TailwindCSS
+- **AI**: OpenAI GPT-4 or Anthropic Claude
+- **Data**: NewsAPI, Alpha Vantage, Finnhub
+
+## What's Included
+
+✅ Full MT5 integration
+✅ AI-powered market analysis (GPT-4/Claude)
+✅ Technical indicators (RSI, MACD, Bollinger Bands, etc.)
+✅ News sentiment analysis
+✅ Risk management system
+✅ Real-time dashboard
+✅ WebSocket updates
+✅ Decision transparency
+✅ Automated trading
+✅ Manual trading mode
+
+## Performance & Monitoring
+
+- Scans markets every 5 minutes (configurable)
+- Real-time WebSocket updates to dashboard
+- Comprehensive logging
+- Trade history tracking
+- Performance metrics
+
+## Advanced Configuration
+
+### Using Claude Instead of GPT-4
+```env
+LLM_PROVIDER=anthropic
+LLM_MODEL=claude-3-opus-20240229
+ANTHROPIC_API_KEY=sk-ant-...
+```
+
+### Adding More Trading Pairs
+Edit `config/strategy_config.json`:
+```json
+{
+  "trading_pairs": ["EURUSD", "GBPUSD", "USDJPY", "AUDUSD", "USDCAD"]
+}
+```
+
+## Documentation
+
+- **[SETUP.md](SETUP.md)** - Complete setup guide with detailed .env instructions
+- **[LICENSE](LICENSE)** - MIT License
+
+## Support
+
+For issues and questions:
+1. Check [SETUP.md](SETUP.md) troubleshooting section
+2. Review backend logs in terminal
+3. Check browser console (F12) for frontend errors
+4. Ensure all API keys are valid and have credits
+
+## Development
+
+### Running in Development Mode
+
+**Terminal 1 - Backend:**
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+python main.py
+```
+
+**Terminal 2 - Frontend:**
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
 ## Disclaimer
 
-Trading involves risk. This bot is for educational and research purposes. Past performance does not guarantee future results. Always test thoroughly in a demo account before live trading.
+⚠️ **Trading involves substantial risk of loss.** This software is provided for educational and research purposes only. The developers are not responsible for any financial losses. Always:
+- Test thoroughly in demo accounts
+- Understand all risks
+- Never invest more than you can afford to lose
+- Consult a financial advisor before live trading
+- Follow local regulations
 
 ## License
 
-MIT License - See LICENSE file
+MIT License - See [LICENSE](LICENSE) file for details
+
+---
+
+## Quick Links
+
+- 📖 **[Complete Setup Guide](SETUP.md)** - Detailed instructions
+- 🔑 **[Get OpenAI API Key](https://platform.openai.com/api-keys)**
+- 📰 **[Get News API Key](https://newsapi.org/)**
+- 📊 **[Download MT5](https://www.metatrader5.com/)**
+
+---
+
+**Ready to start? Follow the [Complete Setup Guide (SETUP.md)](SETUP.md)!** 🚀
