@@ -46,44 +46,39 @@ ai_trading_bot/
 └── data/                      # Historical data and logs
 ```
 
-## Quick Start
+## 🚀 Super Simple Quick Start
 
 ### Prerequisites
-- Python 3.10+
-- Node.js 18+
-- MetaTrader 5 installed
-- OpenAI API key (or other LLM provider)
+- Python 3.10+ - [Download](https://www.python.org/downloads/)
+- Node.js 18+ - [Download](https://nodejs.org/)
+- MetaTrader 5 - [Download](https://www.metatrader5.com/)
 
-### Installation
+### Installation & Start
 
-1. **Clone and setup backend:**
+**That's it! Just run ONE command:**
+
+**On Windows:**
 ```bash
-cd backend
-pip install -r requirements.txt
-cp .env.example .env
-# Edit .env with your MT5 credentials and API keys
+start.bat
 ```
 
-2. **Setup frontend:**
+**On Linux/Mac:**
 ```bash
-cd frontend
-npm install
-cp .env.example .env.local
+./start.sh
 ```
 
-3. **Start the system:**
-```bash
-# Terminal 1 - Backend
-cd backend
-python main.py
+The script will automatically:
+- ✅ Install all dependencies (Python + Node.js)
+- ✅ Create environment files
+- ✅ Start both backend and frontend
+- ✅ Open in your browser
 
-# Terminal 2 - Frontend
-cd frontend
-npm run dev
-```
+**Access dashboard:** http://localhost:3000
 
-4. **Access dashboard:**
-Open http://localhost:3000
+**Note:** The first run takes 2-3 minutes to install dependencies. Subsequent runs start instantly!
+
+### Already Have .env Files?
+If you already configured your `.env` files, the scripts won't overwrite them. Everything is preserved!
 
 ## Configuration
 
@@ -180,9 +175,23 @@ Real-time log showing:
 2. **News API** (for market news)
 3. **Alpha Vantage** (backup market data)
 
-## Support
+## 🔧 Troubleshooting
 
-For issues or questions, check the documentation in `/docs` folder.
+### Script won't run?
+- **Windows**: Right-click `start.bat` → Run as Administrator
+- **Linux/Mac**: Make sure it's executable: `chmod +x start.sh`
+
+### Port already in use?
+- Check if something is running on port 3000 or 8000
+- Kill the process or change ports in configuration
+
+### Dependencies won't install?
+- Make sure Python and Node.js are in your PATH
+- Try running: `pip3 install -r backend/requirements.txt` manually
+- Try running: `cd frontend && npm install` manually
+
+### Still need help?
+Check the detailed [SETUP_GUIDE.md](SETUP_GUIDE.md) or documentation in `/docs` folder.
 
 ## Disclaimer
 
