@@ -416,17 +416,56 @@ The script will:
 **Solution:**
 ```bash
 cd backend
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 Or run:
 ```bash
 # Windows
-install.bat
+.\install.bat
 
 # Linux/Mac
 ./install.sh
 ```
+
+### "'pip' is not recognized" error
+
+**Problem:** When running scripts, you see: `'pip' is not recognized as an internal or external command`
+
+**Cause:** Python's Scripts folder is not in your PATH
+
+**Solution 1: Use the fixed scripts (Recommended)**
+The install.bat and start.bat scripts have been updated to use `python -m pip` instead of `pip`, which works even without pip in PATH.
+
+Just run:
+```bash
+.\install.bat
+```
+
+**Solution 2: Add Python Scripts to PATH (Optional)**
+
+If you want `pip` to work directly:
+
+1. Find your Python Scripts folder:
+   ```bash
+   python -c "import sys; print(sys.executable.replace('python.exe', 'Scripts'))"
+   ```
+
+2. Copy the path (example: `C:\Users\YourName\AppData\Local\Python\pythoncore-3.14-64\Scripts`)
+
+3. Add to PATH:
+   - Press `Win + X` → System
+   - Click "Advanced system settings"
+   - Click "Environment Variables"
+   - Under "User variables", select "Path" → Edit
+   - Click "New" and paste the Scripts path
+   - Click OK on all windows
+   - Restart PowerShell/Command Prompt
+
+4. Test:
+   ```bash
+   pip --version
+   ```
 
 ### "MT5 connection failed"
 
