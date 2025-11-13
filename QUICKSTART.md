@@ -11,8 +11,20 @@ Install these three things:
 ## Step 2: Run the Bot
 
 ### On Windows:
-1. Double-click `start.bat`
+
+**Option 1 - Double-click:**
+1. Double-click `start.bat` in File Explorer
 2. Wait for it to install dependencies (first time only)
+3. Done! 🎉
+
+**Option 2 - PowerShell:**
+1. Open PowerShell in this folder
+2. Run: `.\start.bat`
+3. Done! 🎉
+
+**Option 3 - Command Prompt:**
+1. Open Command Prompt in this folder
+2. Run: `start.bat`
 3. Done! 🎉
 
 ### On Mac/Linux:
