@@ -55,7 +55,9 @@ ai_trading_bot/
 
 ### Installation & Start
 
-**That's it! Just run ONE command:**
+**Option 1: One-Command Start (Recommended)**
+
+Just run the start script - it installs dependencies automatically on first run:
 
 **On Windows (PowerShell):**
 ```bash
@@ -72,7 +74,23 @@ start.bat
 ./start.sh
 ```
 
-The script will automatically:
+**Option 2: Install Dependencies First**
+
+If you prefer to install dependencies separately:
+
+**On Windows:**
+```bash
+.\install.bat
+.\start.bat
+```
+
+**On Linux/Mac:**
+```bash
+./install.sh
+./start.sh
+```
+
+The scripts will automatically:
 - ✅ Install all dependencies (Python + Node.js)
 - ✅ Create environment files
 - ✅ Start both backend and frontend
@@ -80,7 +98,7 @@ The script will automatically:
 
 **Access dashboard:** http://localhost:3000
 
-**Note:** The first run takes 2-3 minutes to install dependencies. Subsequent runs start instantly!
+**Note:** First run takes 2-3 minutes to install dependencies. Subsequent runs start instantly!
 
 ### Already Have .env Files?
 If you already configured your `.env` files, the scripts won't overwrite them. Everything is preserved!
