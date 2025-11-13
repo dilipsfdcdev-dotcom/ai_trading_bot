@@ -49,7 +49,7 @@ REM Install backend dependencies if needed
 if not exist "backend\.dependencies_installed" (
     echo Installing backend dependencies...
     cd backend
-    pip install -r requirements.txt
+    python -m pip install -r requirements.txt
     echo installed > .dependencies_installed
     cd ..
     echo [OK] Backend dependencies installed

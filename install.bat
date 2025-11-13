@@ -30,10 +30,10 @@ echo.
 REM Install backend dependencies
 echo [1/2] Installing Python dependencies...
 cd backend
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 if errorlevel 1 (
     echo [ERROR] Failed to install Python dependencies
-    echo Try running: pip install --upgrade pip
+    echo Try running: python -m pip install --upgrade pip
     cd ..
     pause
     exit /b 1
