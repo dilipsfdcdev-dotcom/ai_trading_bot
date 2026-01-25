@@ -1,0 +1,70 @@
+{
+  "trading": {
+    "symbols": ["XAUUSD"],
+    "timeframes": ["M1", "M5", "M15", "H1", "H4"],
+    "enabled": true,
+    "paper_trading": true
+  },
+  "risk_management": {
+    "risk_per_trade": 0.02,
+    "max_daily_trades": 10,
+    "max_positions": 3,
+    "max_daily_loss": 0.05,
+    "max_drawdown": 0.15,
+    "min_risk_reward": 1.5
+  },
+  "ai_settings": {
+    "min_confidence": 0.65,
+    "thinking_mode": "balanced",
+    "llm_provider": "openai",
+    "use_neural_networks": true,
+    "model_ensemble": true
+  },
+  "analysis": {
+    "interval_seconds": 300,
+    "use_technical": true,
+    "use_patterns": true,
+    "use_sentiment": true,
+    "use_news": true,
+    "multi_timeframe": true
+  },
+  "health_monitoring": {
+    "health_check_interval": 60,
+    "auto_recovery": true,
+    "max_recovery_attempts": 5,
+    "alert_on_error": true
+  },
+  "data_sources": {
+    "mt5_enabled": true,
+    "polygon_enabled": false,
+    "finnhub_enabled": true,
+    "newsapi_enabled": true,
+    "alpha_vantage_enabled": false
+  },
+  "model_weights": {
+    "lstm": 0.20,
+    "transformer": 0.20,
+    "pattern": 0.15,
+    "rl": 0.15,
+    "sentiment": 0.10,
+    "technical": 0.10,
+    "llm": 0.10
+  },
+  "trading_hours": {
+    "enabled": false,
+    "start_hour_utc": 0,
+    "end_hour_utc": 24
+  },
+  "notifications": {
+    "enabled": false,
+    "on_trade_opened": true,
+    "on_trade_closed": true,
+    "on_signal_generated": false,
+    "on_error": true
+  },
+  "logging": {
+    "level": "INFO",
+    "file_logging": true,
+    "log_dir": "./logs"
+  }
+}
